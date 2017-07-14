@@ -1,14 +1,14 @@
-Patent Info App
+Patents View App
 =====================
 
 A mobile application (IOS, Android compatible) where users can - 
-* Search patents using different identifiers like Assignee, Date, Id, Inventor, Title 
+* Search patents using various criteria like Assignee, Date, Id, Inventor, Title 
 * Search results can be sorted in ascending or descending order by title and date
-* Search results can be bookmarked
-* Bookmark interesting patents and group them into Notebooks
-* Documents and text of the patents can be accessed
-* App has a flexibility to view previous search results or last viewed document
-* Setting (font size and day mode) can be set based on personal interest
+* Bookmark interesting patents or search results and organize them into Notebooks
+* Access related documents and text content
+* View previous search results or last viewed document
+* Set font size and background mode based on personal preference
+* See the screenshots [here](./screenshots)
 
 Installation Steps
 =====================
