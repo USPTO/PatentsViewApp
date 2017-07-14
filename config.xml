@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="gov.uspto.patentInfoMobile" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>USPTO Grants</name>
+<widget id="gov.uspto.patentsViewApp" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>USPTO Patents View App</name>
     <description>
         Search and view granted patents from the United States Patent and Trademark Office (USPTO).
     </description>
