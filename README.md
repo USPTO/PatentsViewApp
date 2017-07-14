@@ -55,11 +55,11 @@ This agreement or any reference to specific commercial products, processes, or s
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://github.com/AmericanConsultants/patentInfoApp">https://github.com/AmericanConsultants/patentInfoApp</a>
+     href="https://github.com/USPTO/PatentsViewApp">https://github.com/USPTO/PatentsViewApp</a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">Trademark Status Mobile Application</span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
-      content="US" about="https://github.com/AmericanConsultants/patentInfoApp">
+      content="US" about="https://github.com/USPTO/PatentsViewApp">
   United States</span>.
 </p>
