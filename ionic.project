@@ -1,0 +1,19 @@
+{
+  "name": "mobile",
+  "app_id": "babe60e7",
+  "gulpStartupTasks": [
+    "watch"
+  ],
+  "documentRoot": "../app/www",
+  "watchPatterns": [
+    "../app/www/components/**/*",
+    "../app/www/css/**/*"
+  ],
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "11.40.277.1"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+html, body, select, .item, .input-label, .item-select select, ion-content, .item-content, input[type=text], textarea,
+.nbk-title, .pane
+{
+	background-color:#333;
+	color:#fff;
+	border-color:#999;
+}
+
+h2 {
+	color:#fff;
+}
+
+.bar.bar-dark {
+    border-color: #111;
+    background-color: #777;
+    background-image: linear-gradient(0deg, #666, #888 50%, transparent 50%);
+    color:#555;
+}
+
+.bar.bar-stable {
+    border-color: #111;
+    background-color: #777;
+    background-image: linear-gradient(0deg, #777, #999 50%, transparent 50%);
+    color:#fff;
+}
+
+.nbk-title {
+	background-color:#000;
+}
+
+a.item:visited, a.item-content:visited {
+	color:#aaa;
+}
+
+.search-menu-item, .search-menu-item:visited {
+	color:#aaa;
+	text-align:left;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+	background-color:#555;
+	color:#fff;
+}
+
+.item-divider {
+	background-color:#000;
+}
+
+.search-menu-pane, .search-field-pane, .nav-menu-pane {
+	background-color:#777;
+}

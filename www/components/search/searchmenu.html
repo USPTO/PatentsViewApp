@@ -1,0 +1,50 @@
+<ion-view view-title="Search">
+    
+    <ion-header-bar class="search-header" no-tap-scroll="true" menu-close> 
+        <h1 class="title">Search</h1>
+    </ion-header-bar>
+
+    <ion-content class="search-menu-pane"  has-bouncing="false" ng-cloak>
+        <ion-list>
+
+	        <div class="item nav-item item-input item-select search-sort">
+	                <form><label for="sort" class="input-label">Sort By </label>
+	                <select name="sort" id="sort" ng-options="item.label for item in SORT_FIELDS" ng-model="sort.field" ng-change="sortBy()"></select></form>
+	        </div>
+        
+	        <div>
+	            <a class="item nav-item item-icon-right" ng-click="searchByExpand = !searchByExpand">
+	               Search By
+	               <i class="icon" class="menu-icon" ng-class="{'ion-chevron-up': searchByExpand, 'ion-chevron-down':!searchByExpand }" ></i>
+	            </a>
+	            <div ng-show="searchByExpand" class="animate-dropdown" style="margin-left:0.75em;">
+	                <a class="item item-icon-right search-menu-item"
+	                    ng-repeat="(fieldName, fields) in FIELDS"
+	                    ui-sref="search-field({ 'field': fieldName })"
+                        ui-sref-opts="{location: false}"
+	                    >
+	                    {{fieldName}}
+	                    <i class="icon ion-chevron-right"></i>
+	                </a>
+	            </div>
+	        </div>
+        
+	        <div class="card search-card" ng-repeat="(parentField, fieldArray) in newQuery">
+	            
+	              <div class="item item-divider" style="font-weight:bold;margin-bottom:8px;">
+	                {{parentField}}
+	              </div>
+	              
+	              <div class="item item-text-wrap search-term" ng-repeat="(searchFieldName, field) in fieldArray">
+	                    <span class="button search-term-btn" ng-repeat="value in field track by $index"
+	                    ng-click="removeTerm('{{parentField}}:{{searchFieldName}}:{{value}}')">
+	                        <span class="search-term-name">{{ searchFieldName | shortName }}</span>
+	                        <span class="search-term-value">{{value}}</span>
+	                        <i class="ion-close"></i>
+	                    </span>
+	              </div>
+	        </div>
+        
+        </ion-list>
+    </ion-content>
+ </ion-view>

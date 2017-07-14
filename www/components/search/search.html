@@ -1,0 +1,66 @@
+<ion-view view-title="Search: {{::field}}">
+
+    <ion-header-bar class="search-header" ng-click="backButton();" no-tap-scroll="true">
+        <button class="button button-icon icon button-clear backButton"></button>
+        <h1 class="title">Search: <span class="search-field">{{::field}}</span></h1>
+    </ion-header-bar>
+
+    <ion-content class="has-header search-field-pane" has-bouncing="false">
+
+        <form name="fieldSearch" ng-submit="addSearchField()" role="search" novalidate>
+            <div class="card">
+                <div class="item item-divider padding search-field bar">
+                    <span class="search-field-header">{{::field}}</span>
+                    
+                    <a ng-if="field === 'id'" class="button button-clear search-scanbtn" style="float:right;margin-top:-0.38em;" ng-click="barcodeScan()">
+                    </a>
+                </div>
+
+                <div ng-repeat="subfield in FIELDS[field]">
+                
+                <label for="{{::subfield.shortName}}" class="item item-input item-stacked-label">
+                    <span class="input-label">{{::subfield.displayName}}</span>
+
+                    <input ng-if="subfield.type !== 'text'"
+                        type="{{::subfield.type}}"
+                        name="{{::subfield.shortName}}"
+                        id="{{::subfield.shortName}}"
+                        ng-model="searchForm[subfield.searchField]"
+                        ng-model-options="{ updateOn: 'default blur', debounce: { default: 900, blur: 15 } }"
+                        placeholder="{{::subfield.placeholder}}"
+                        ng-required="subfield.required"
+                        min="{{::subfield.min}}"
+                        max="{{::subfield.max}}"
+                    />
+
+                    <input ng-if="subfield.type === 'text'"
+                        type="{{::subfield.type}}"
+                        name="{{::subfield.shortName}}"
+                        id="{{::subfield.shortName}}"
+                        ng-model="searchForm[subfield.searchField]"
+                        ng-model-options="{ updateOn: 'default blur', debounce: { default: 900, blur: 15 } }"
+                        placeholder="{{::subfield.placeholder}}"
+                        ng-required="subfield.required"
+                        ng-minlength="subfield.minlength"
+                        ng-maxlength="subfield.maxlength"
+                    />
+                    
+                    <div ng-show="fieldSearch.{{subfield.shortName}}.$dirty && fieldSearch.{{subfield.shortName}}.$error">
+                        <sub ng-show="fieldSearch.{{subfield.shortName}}.$error.required">Required</sub>
+                        <sub ng-show="fieldSearch.{{subfield.shortName}}.$error.invalid">Invalid</sub>
+                        <sub ng-show="fieldSearch.{{subfield.shortName}}.$error.minlength || fieldSearch.{{subfield.shortName}}.$error.maxlength">
+                            length between: {{subfield.minlength}} and {{subfield.maxlength}}</sub>
+                    </div>
+
+                    </label>
+
+                </div>
+
+            </div>
+            
+
+            <button ng-disabled="fieldSearch.$invalid" type="submit" class="button button-full btn-primary">Add</button>
+        </form>
+    </ion-content>
+
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-popover-view class="lib-filter-menu">
+   <ion-content>
+       <div class="list">
+            <div class="item more-title">Show:</div>
+
+            <a class="item more-item item-icon-left" ng-click="filterStored('');" ng-class="{active: filter === ''}">
+              <i class="icon more-icon ion-android-cloud-outline"></i>
+              All
+            </a>
+
+            <a class="item more-item item-icon-left" ng-click="filterStored(true);" ng-class="{active: filter === true}">
+              <i class="icon more-icon ion-android-cloud"></i>
+              Stored
+            </a>
+
+            <a class="item more-item item-icon-left" ng-click="filterStored(false);" ng-class="{active: filter === false}">
+              <i class="icon more-icon ion-android-download"></i>
+              Not Stored
+            </a>
+       </div>
+   </ion-content>
+</ion-popover-view>

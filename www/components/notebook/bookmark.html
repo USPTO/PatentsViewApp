@@ -1,0 +1,87 @@
+<ion-modal-view ng-controller="BookmarkController">
+
+     <ion-header-bar class="bk-header">
+        <div class="buttons">
+            <button ng-show="!selectNotebook" class="button button-clear bk-close" ng-click="modal.remove();">
+                <i class="ion-close-round"></i>
+            </button>
+            <button ng-if="selectNotebook" class="button button-icon bk-back" ng-click="toggleSelectNotebook(false);toggleNewNotebook(false)">
+                <i class="ion-android-arrow-back"></i>
+            </button>
+        </div>
+
+        <h1 class="title bk-title">Bookmark</h1>
+
+        <div class="buttons"> 
+            <button ng-show="(selectNotebook && !newNotebook)" class="button button-stable" ng-click="toggleNewNotebook(true)">
+                New Notebook
+            </button>
+            <button ng-show="(!selectNotebook && !newNotebook)" class="button bk-save" ng-click="save();modal.remove();">
+                Save
+            </button>
+        </div>
+     </ion-header-bar>
+     
+
+
+    <ion-content has-bouncing="false" class="has-header max-width-center bk-content">
+
+        <div class="list bk-fields" ng-hide="selectNotebook">
+            <label class="item item-input item-stacked-label" style="border-top:0;">
+                <span class="input-label">Name</span>
+                <input type="text" ng-model="data.name"/>
+            </label>
+
+            <label class="item item-select item-stacked-label">
+                <span class="input-label">Status</span>
+                <select class="bk-status" ng-model="data.tag" ng-switch="data.type">
+                    <option ng-repeat="tag in ::documentTags" ng-switch-when="document">{{::tag}}</option>
+                    <option ng-repeat="tag in ::defaultTags" ng-switch-default>{{::tag}}</option>
+                </select>
+            </label>
+
+            <label class="item item-input item-stacked-label" ng-click="toggleSelectNotebook(true)">
+                <span class="input-label">Notebook</span>
+                <div class="bk-notebook">{{notebook}}</div>
+            </label>
+        </div>
+
+        <div class="list" ng-show="(selectNotebook && !newNotebook)">
+            <div class="item item-divider bk-selectTitle">Select a notebook:</div>
+            <ion-item class="item item-icon-right"
+                ng-repeat="notebook in briefcase | orderObjectBy:'modified':true"
+                ng-click="selectedNotebook(notebook)"
+            >
+                {{notebook.name}}
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
+        </div>
+
+        <div ng-if="newNotebook">
+            <label class="item item-input item-stacked-label" style="border-top:0;">
+                <span class="input-label">Name of new Notebook:</span>
+                <form ng-submit="addNotebook()">
+                    <input type="text" ng-model="form.notebookName"/>
+                </form>
+            </label>
+        </div>
+    </ion-content>
+
+    <!--
+    <ion-footer-bar class="bk-footer">
+        <div class="button-bar" ng-if="(!selectNotebook && !newNotebook)">
+            <a class="button btn-default bk-btn" ng-click="modal.remove()">Cancel</a>
+            <a ng-if="(!selectNotebook && !newNotebook)" class="button btn-primary bk-btn" ng-click="save();modal.remove();">Save</a>
+        </div>
+
+        <div class="button-bar" ng-if="(selectNotebook && !newNotebook)">
+            <a class="button btn-default bk-btn" ng-click="toggleSelectNotebook()">Cancel</a>
+        </div>
+
+        <div class="button-bar" ng-if="(selectNotebook && newNotebook)">
+            <a class="button btn-default bk-btn" ng-click="toggleNewNotebook()">Cancel</a>
+            <a class="button btn-primary bk-btn" ng-click="addNotebook();">Add</a>
+        </div>
+    </ion-footer-bar>      
+    -->
+</ion-modal-view>

@@ -1,0 +1,62 @@
+ <ion-view view-title="Results <span class='badge badge-light result-headcnt'>{{data.total_patent_count}}</span>">
+ 
+         <ion-nav-buttons side="left">
+                <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+ 
+        <ion-nav-buttons side="right">
+              <button class="button button-icon" ng-click="bookmark()">
+                <i class="ion-bookmark"></i>
+              </button>
+              <button class="button button-icon" menu-toggle="right">
+                <i class="ion-search"></i>
+              </button>
+        </ion-nav-buttons>
+
+        <ion-content class="has-header max-width-center" 
+                direction="y" on-swipe-left="goNextPage()" on-swipe-right="goBackPage()" has-bouncing="false">
+            <ion-list>
+                <ion-item class="item result"
+                    ui-sref="document.id({ id: result.patent_number })"
+                    ng-repeat="result in data.patents"
+                    >
+
+                    <div class="result-title">{{::result.patent_title}}</div>
+                    <div class="result-snipplet">
+                    	<div class="result-snipplet-row1">
+                        	<span>{{::result.applications[0].app_country}} {{::result.patent_number}} {{::result.patent_kind}}</span>
+                        	<span ng-if="result.mainClassificationCode" >Classification: {{::result.uspcs && result.uspcs.length > 0 ? result.uspcs[0].uspc_mainclass_title: ''}}</span>
+                        </div>
+                        <div class="result-snipplet-row2">
+                          	<span>Produced: {{::result.applications[0].app_date | date:'MM/dd/yyyy' }}</span>
+                           	<span>Published: {{::result.patent_date  | date:'MM/dd/yyyy' }}</span>
+                        </div>                        
+                    </div>
+                </ion-item>
+                <ion-item ng-show="data.patents.length == 0" class="item-stable ng-cloak">
+                    Search did not return any results.
+                </ion-item>
+                <ion-item ng-hide="!error.code || error.code < 299" class="error-msg ng-cloak">
+                    Connection Failed <br/> Error: {{error.code}} ({{error.text}})
+                    <a style="margin-left:10px;" class="button button-assertive button-block button-small" ng-click="load()">Retry</a>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+
+        <ion-footer-bar class="bar bar-stable max-width-center" ng-hide="totalPages <= 1">
+               <span class="result-footer" ng-show="searching">
+                    <ion-spinner></ion-spinner>
+               </span>
+               <span class="result-footer ng-cloak" ng-hide="searching">
+                    <a class="button icon ion-chevron-left" ng-hide="data.pageNumber === 0" ng-click="goBackPage()"></a>
+
+                    <div class="result-page-cnt">
+                        <button class="button" ng-click="showPagePopup()">Page {{data.pageNumber}} of {{totalPages}}</button>
+                    </div>
+
+                    <a class="button icon ion-chevron-right" ng-click="goNextPage()" ng-hide="data.pageNumber === (totalPages -1)">
+                    </a>
+               </span>
+        </ion-footer-bar>
+        
+</ion-view>

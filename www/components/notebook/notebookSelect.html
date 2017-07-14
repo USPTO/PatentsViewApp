@@ -1,0 +1,14 @@
+<ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Select Notebook</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list>
+            <ion-item class="item" ng-click="pickNotebook(notebook)" ng-repeat="notebook in notebookList" item="notebook">
+                {{notebook.name}}
+            </ion-item>
+        </ion-list>
+        
+        <button ng-click="pickedNotebook()">Cancel</button>
+   </ion-content>
+</ion-modal-view>

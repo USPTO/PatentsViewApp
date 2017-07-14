@@ -1,0 +1,27 @@
+<ion-popover-view class="more-menu">
+   <ion-content>
+       <div class="list">
+            <div class="item more-title">Notebook:</div>
+       
+            <a class="item more-item item-icon-left" ng-click="toggleEditTitle()" >
+              <i class="icon more-icon ion-edit"></i>
+              Edit Description
+            </a>
+       
+            <a class="item more-item item-icon-left" ng-click="toggleEditTitle()">
+              <i class="icon more-icon ion-edit"></i>
+              Rename
+            </a>
+              
+            <a class="item more-item item-icon-left" ng-click="mergeNotebook()">
+              <i class="icon more-icon ion-merge"></i>
+              Merge Another
+            </a>
+
+            <a class="item more-item item-icon-left" ng-click="deleteNotebook()">
+              <i class="icon more-icon ion-trash-b"></i>
+              Delete
+            </a>
+       </div>
+   </ion-content>
+</ion-popover-view>

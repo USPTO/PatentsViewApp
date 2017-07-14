@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' gap://ready; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">    
+    <meta name="format-detection" content="telephone=no"> <!-- disable ios incorrectly adding phonenumber link to patent numbers. -->
+
+    <link href="lib/font/Roboto.css" rel="stylesheet" type="text/css">
+
+    <link href="lib/ionic/css/ionic.min.css" rel="stylesheet" type="text/css">
+
+    <!-- build:css -->
+    	<link href="css/style.css" rel="stylesheet" type="text/css">
+     <!-- endbuild -->
+
+	<!--
+    	<link href="css/night-style.css" rel="stylesheet" type="text/css" ng-if="!settings.dayMode">
+	-->
+
+    <!-- IF using Sass (run gulp sass first), then remove the CSS include above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+    <script src="lib/ionic/js/angular-ui/angular-ui-router.min.js"></script>
+    <script src="lib/ionic/js/angular/angular-resource.min.js"></script>
+    <script src="lib/ionic/js/angular/angular-animate.min.js"></script>
+
+    <!-- <script src="lib/ng-cordova/ng-cordova-mocks.js"></script> -->
+    <script src="lib/ng-cordova/ng-cordova.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- build:js -->
+  	    <script src="components/xmlToJSON.js"></script>
+   	    <script src="components/hilitor.js"></script>
+
+	    <script src="components/app.config.js"></script>
+	    <script src="components/app.filters.js"></script>
+
+  	    <script src="components/AppController.js"></script>
+
+	    <script src="components/notebook/NotebookService.js"></script>
+	    <script src="components/notebook/BriefcaseController.js"></script>
+	    <script src="components/notebook/NotebookController.js"></script>
+	    <script src="components/notebook/BookmarkController.js"></script>
+
+        <script src="components/library/LibraryService.js"></script>
+  	    <script src="components/library/LibraryController.js"></script>
+
+	    <script src="components/search/SearchService.js"></script>
+	    <script src="components/search/SearchMenuController.js"></script>
+	    <script src="components/search/SearchController.js"></script>
+	    <script src="components/results/SearchResultsController.js"></script>
+
+  	    <script src="components/patentViewer/DocumentService.js"></script>
+   	    <script src="components/patentViewer/PatentViewer.js"></script>
+	    <script src="components/document/DocumentController.js"></script>
+
+	    <script src="components/navMenu/HistoryController.js"></script>
+
+	    <script src="components/settings/SettingsController.js"></script>
+	    <script src="components/settings/SettingsService.js"></script>
+	 <!-- endbuild -->
+
+
+    <title>USPTO Grant Publications</title>
+</head>
+
+
+<body ng-app="app" ng-controller="AppController">
+<ion-side-menus>
+	<ion-side-menu side="left">
+	    <ng-include src="&apos;components/navMenu/menu.html&apos;"></ng-include>
+	</ion-side-menu>
+
+	<ion-side-menu side="right">
+	    <ion-nav-view name="searchSide"></ion-nav-view>
+	</ion-side-menu>
+	<ion-side-menu-content>
+
+        <div class="container content-container">
+		<!-- <ion-nav-view> -->
+		    <ion-nav-bar align-title="left" class="headToShrink bar-dark max-width-center" no-tap-scroll="true">
+		        <ion-nav-buttons side="left">
+		          <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+		        </ion-nav-buttons>
+                <ion-nav-buttons side="right">
+		          <button class="button button-icon icon search-btn" menu-toggle="right"></button>
+		        </ion-nav-buttons>
+		    </ion-nav-bar>
+
+		    <ion-nav-view name="base"></ion-nav-view>
+		<!-- </ion-nav-view> -->
+        </div>
+	</ion-side-menu-content>
+
+</ion-side-menus>
+
+  </body>
+</html>

@@ -1,0 +1,281 @@
+ <ion-view view-title="Patent">
+
+        <ion-nav-buttons side="left">
+                <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+ 
+        <ion-nav-buttons side="right">
+            <button class="button button-icon" ng-click="moreMenuPopup($event)">
+                <i class="ion-more"></i>
+            </button>
+            <button class="button button-icon" ng-click="showMenu()" nav-transition="none" menu-toggle="right">
+                <i class="ion-android-list"></i>
+            </button>
+            <button class="button button-icon search-btn" ng-click="patentSearch()" nav-transition="none" menu-toggle="right"></button>
+        </ion-nav-buttons>
+
+       <ion-header-bar no-tap-scroll="true" class="bar-dark bar-subheader item-input-inset" ng-if="pageFind === true">
+          <button class="button button-small button-clear ion-android-close" ng-click="closePageFind()" style="padding-right:10px;"></button>
+              <label class="item-input-wrapper" style="width:100px;">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input  type="search" placeholder="find" ng-model="find.term" ng-keyup="$event.keyCode == 13 && pageFindText()">
+                <div ng-if="highlight.matchCount > 0" style="color:#555;width:35%;font-size:0.9em;">{{highlight.currentMatch}} of {{highlight.matchCount}}</div>
+              </label>
+              <button type="submit" class="button button-clear" ng-click="pageFindText()">Find</button>
+       </ion-header-bar>
+
+      <ion-content delegate-handle="patentDoc" class="has-header max-width-center" padding="false" has-bouncing="false" overflow-scroll="true" scroll-event-interval="5">
+      
+       <!--
+        <ion-scroll header-shrink class="content max-width-center"  style="width:100%;height:100% !important;" direction="y" scrollbar-x="false" zooming="true" min-zoom="1" max-zoom="2.5" has-bouncing="false" padding="false">
+        -->
+
+            <div id="patentTop" on-hold="onHold()">
+
+                <div style="height:30px"></div>
+
+                <h3>United States Patent</h3>
+
+                <h4>
+                    {{::bib['publication-reference'][0]['document-id'][0]['country'][0]._text }}
+                    {{::bib['publication-reference'][0]['document-id'][0]['doc-number'][0]._text }}
+                    {{::bib['publication-reference'][0]['document-id'][0]['kind'][0]._text }}
+                </h4>
+
+                <h4>Date of Patent: {{::bib['publication-reference'][0]['document-id'][0]['date'][0]._text }}</h4>
+            </div>
+            <div id="patentTitle" class="item item-text-wrap">
+                {{::bib['invention-title'][0]._text }}
+            </div>
+
+            <div id="patentAbstract" class="item item-divider section-title">Abstract</div>
+            <div class="item item-text-wrap section-content section-paragraph">
+                {{::result['us-patent-grant'][0]['abstract'][0]['p'][0]._text }}
+            </div>
+
+            <div class="item item-divider section-title">Inventors</div>
+            <div class="item item-text-wrap section-content">
+               <span ng-repeat="inventor in ::bib['parties'][0]['applicants'][0]['applicant']">
+                    <b>{{::inventor.addressbook[0]["first-name"][0]._text}} {{::inventor.addressbook[0]["last-name"][0]._text}}</b>
+                    , {{::inventor.addressbook[0]["address"][0]['city'][0]._text }} ( {{::inventor.addressbook[0]["address"][0]["country"][0]._text }} );
+               </span>
+
+               <span ng-repeat="inventor in ::bib['us-parties'][0]['inventors'][0]['inventor']">
+                    <b>{{::inventor.addressbook[0]["first-name"][0]._text}} {{::inventor.addressbook[0]["last-name"][0]._text}}</b>
+                    , {{::inventor.addressbook[0]["address"][0]['city'][0]._text }} ( {{::inventor.addressbook[0]["address"][0]["country"][0]._text }} );
+               </span>
+            </div>
+
+            <div class="item item-divider section-title">Assignees</div>
+            <div class="item item-text-wrap section-content">
+                <span ng-repeat="assignee in ::bib['assignees']">
+                    <b>{{::assignee['assignee'][0]["addressbook"][0]["orgname"][0]._text}}</b>,
+                    {{::assignee['assignee'][0]["addressbook"][0]["address"][0]["city"][0]._text }} ( {{::assignee['assignee'][0]["addressbook"][0]["address"][0]["country"][0]._text }} );
+                </span>
+            </div>
+
+            <div class="item item-divider section-title">Application</div>
+            <div class="item item-text-wrap row padding">
+                <div class="col section-field">Appl. #:</div>
+                <div class="col section-content">{{::bib['application-reference'][0]['document-id'][0]['doc-number'][0]._text }}</div>
+            </div>
+
+            <div class="item item-text-wrap row padding" style="border-bottom:0;">
+                <div class="col section-field">Filed:</div>
+                <div class="col section-content">{{::bib['application-reference'][0]['document-id'][0]['date'][0]._text }}</div>
+            </div>
+
+            <div class="item item-divider section-title">Prior Publication Data</div>
+            <div class="item">
+                <div class="row">
+                    <div class="section-field" style="width:60%;">
+                        Document Identifier
+                    </div>
+                    <div class="section-field" style="width:30%;">
+                        Publication Date
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="width:60%" class="section-content">
+     {{::bib['us-related-documents'][0]['continuation-in-part'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['country'][0]._text }}
+     {{::bib['us-related-documents'][0]['continuation-in-part'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['doc-number'][0]._text }}
+     {{::bib['us-related-documents'][0]['continuation-in-part'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['kind'][0]._text }}   
+                    
+                 {{::bib['us-related-documents'][0]['related-publication'][0]['document-id'][0]['country'][0]._text }}
+                 {{::bib['us-related-documents'][0]['related-publication'][0]['document-id'][0]['doc-number'][0]._text }}
+                 {{::bib['us-related-documents'][0]['related-publication'][0]['document-id'][0]['kind'][0]._text }}
+                    </div>
+                    <div style="width:30%;" class="section-content">
+     {{::bib['us-related-documents'][0]['continuation-in-part'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['date'][0]._text }}   
+               
+                    {{::bib['us-related-documents'][0]['related-publication'][0]['document-id'][0]['date'][0]._text }}
+                    </div>
+                </div>
+            </div>
+
+            <div id="patentRelated" class="item item-divider section-title">Related U.S. Patent Documents</div>
+            <div class="item">
+                <div class="row ">
+                    <div class="col col-33 section-field">Appl. #</div>
+                    <div class="col col-33 section-field">Filing Date</div>
+                    <div class="col col-33 section-field">Patent #</div>
+                </div>
+                <div class="row section-content">
+    <div class="col col-33">
+        {{::bib['us-related-documents'][0]['continuation-in-part'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['doc-number'][0]._text }}
+
+        {{::bib['us-related-documents'][0]['division'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['doc-number'][0]._text }}
+    </div>
+    <div class="col col-33">
+        {{::bib['us-related-documents'][0]['continuation-in-part'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['date'][0]._text }}
+
+        {{::bib['us-related-documents'][0]['division'][0]['relation'][0]['parent-doc'][0]['document-id'][0]['date'][0]._text }}
+    </div>
+    <div class="col col-33">  {{::bib['us-related-documents'][0]['division'][0]['relation'][0]['parent-doc'][0]['parent-grant-document'][0]['document-id'][0]['doc-number'][0]._text}}
+    </div>
+                </div>
+            </div>
+
+
+            <div id="patentClassifications" class="item item-divider section-title">Current Classifications</div>
+            <div class="item item-text-wrap row padding">
+                <div class="col col-33 section-field">U.S.</div>
+                <div class="col col-67 section-content">
+                    {{:: bib['classification-national'][0]['main-classification'][0]._text }};  <!-- FIX FORMAT -->
+                    <span ng-repeat="classNational in ::bib['classification-national'][0]['further-classification']">
+                        {{::classNational._text}}; <!-- FIX FORMAT -->
+                    </span>
+                </div>
+            </div>
+
+            <div class="item item-text-wrap row padding">
+                <div class="col col-33 section-field">CPC</div>
+                <div class="col col-67 section-content">
+                    <div ng-repeat="cpc in ::bib['classifications-cpc'][0]['further-cpc'][0]['classification-cpc']">
+                        {{::cpc['main-group'][0]._text }}/{{:: cpc['subgroup'][0]._text }} 
+                        ({{::cpc['cpc-version-indicator'][0]['date'][0]._text }});
+                        {{::cpc['section'][0]._text }}{{:: cpc['class'][0]._text }}{{::cpc['subclass'][0]._text }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="item item-text-wrap row padding">
+                <div class="col col-33 section-field">Int.</div>
+                <div class="col col-67 section-content">
+                
+                <span ng-repeat="ipcr in ::bib['classifications-ipcr'][0]['classification-ipcr']">               
+                    {{::ipcr['section'][0]._text }}{{::ipcr['class'][0]._text  }}{{::ipcr['subclass'][0]._text  }}
+                    {{::ipcr['main-group'][0]._text  }}/{{ ::ipcr['subgroup'][0]._text  }}
+                    ( {{::ipcr['action-date'][0]['date'][0]._text  }} );
+                </span>
+                </div>
+            </div>
+
+            <div class="item row padding" style="border-bottom:0;">
+                <div class="col col-33 section-field">Field of<br/> Search</div>
+                <div class="col col-67 item-text-wrap section-content">
+                    <span ng-repeat="class in ::bib['us-field-of-classification-search'][0]['classification-national']">
+                        {{::class['main-classification'][0]._text}};  <!-- FIX FORMAT -->
+                    </span>
+                </div>
+            </div>
+
+            <div id="patentReferences" class="item item-divider section-title" >References Cited</div>
+            <div class="item">
+               <div class="row ref-cite" ng-repeat="cite in ::bib['us-references-cited'][0]['us-citation']">
+                   <div style="width:40%" class="section-content">
+                        <a href="">{{::cite['patcit'][0]['document-id'][0]['doc-number'][0]._text}}</a> <!-- add url -->
+                   </div>
+                   <div style="width:30%" class="section-content">
+                        {{::cite['patcit'][0]['document-id'][0]['date'][0]._text}}</a>
+                   </div>
+                   <div style="width:30%" class="section-content">
+                        {{::cite['patcit'][0]['document-id'][0]['name'][0]._text}}</a>
+                    </div>
+               </div>
+               
+               <div class="row ref-cite" ng-repeat="cite in ::bib['references-cited'][0]['citation']">
+                   <div style="width:40%" class="section-content">
+                        <a href="">{{::cite['patcit'][0]['document-id'][0]['doc-number'][0]._text}}</a> <!-- add url -->
+                   </div>
+                   <div style="width:30%" class="section-content">
+                        {{::cite['patcit'][0]['document-id'][0]['date'][0]._text}}</a>
+                   </div>
+                   <div style="width:30%" class="section-content">
+                        {{::cite['patcit'][0]['document-id'][0]['name'][0]._text}}</a>
+                    </div>
+               </div>
+            </div>
+
+            <div class="item" style="border-bottom:0;">
+                <div style="font-style:italic;font-weight:bold;">Attorney, Agent or Firm:</div>
+                <div class="item-text-wrap section-content" style="padding-left:0.5em;">
+                    {{::bib['us-parties'][0]['agents'][0]['agent'][0]['addressbook'][0]['orgname'][0]._text }}
+                    {{::bib['parties'][0]['agents'][0]['agent'][0]['addressbook'][0]['orgname'][0]._text }}
+                </div>
+                <br/>
+                <div style="font-style:italic;font-weight:bold;">Primary Examiner:</div>
+                <div class="item-text-wrap section-content" style="padding-left:0.5em;">
+                    {{::bib['examiners'][0]['primary-examiner'][0]['last-name'][0]._text }},
+                    {{::bib['examiners'][0]['primary-examiner'][0]['first-name'][0]._text }}
+                </div>
+            </div>
+
+            <div id="patentClaims" class="item item-divider section-title">Claims ({{::bib['number-of-claims'][0]._text}})</div>
+            <div class="item item-text-wrap">
+                <div class="section-content" style="padding-bottom:0.9em;">
+                    {{::result['us-patent-grant'][0]['us-claim-statement'][0]._text }}
+                </div>
+                <div class="section-paragraph" ng-repeat="claim in ::result['us-patent-grant'][0]['claims'][0]['claim']">
+                   
+                   <!-- <a href="">{{claim._attr.id._value}}</a>    --> <!-- Missing referenced claim number/link; which replaces ' , ' -->
+                   
+                    {{::claim['claim-text'][0]._text}}
+                    
+                    <span ng-repeat="txt in claim['claim-text'][0]['claim-text']">
+                        {{::txt._text}}
+                    </span>
+                </div>
+            </div>
+
+            <div id="patentDescription" class="item item-divider section-title">Description</div>
+            <div class="item item-text-wrap">
+                <!-- note since xml2json groups items context and location is lost for headers -->
+                <div class="section-paragraph" ng-repeat="paragraph in ::result['us-patent-grant'][0]['description'][0]['p']">
+                    {{::paragraph._text}} 
+                </div>
+                <!-- Missing referenced claim number/link; which replaces ' , ' -->
+            </div>
+                 
+                 
+            </div>
+            
+        <!-- </ion-scroll> -->
+        </ion-content>
+        
+         
+        <!-- Toolbar -->
+        <ion-footer-bar class="bar-stable animate-flip" ng-if="selection">
+        	<div class="button-bar">
+	            <a class="button button-icon button-clear ion-chatbox-working" ng-click="">
+	               <!-- Note -->
+	            </a>
+	            <a class="button button-icon button-clear ion-clipboard" ng-click="">
+	               <!-- Copy -->
+	            </a>
+	            <a class="button button-icon button-clear ion-android-create" ng-click="">
+	              <!-- Highlight -->
+	            </a>
+                <a class="button button-icon button-clear ion-edit" ng-click="">
+	              <!-- Strikethrough -->
+	            </a>
+                <a class="button button-icon button-clear ion-share" ng-click="">
+	              <!-- Underline -->
+	            </a>
+                <a class="button button-icon button-clear ion-search" ng-click="">
+	              <!-- search -->
+	            </a>
+            </div>
+        </ion-footer-bar>
+
+</ion-view>

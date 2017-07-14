@@ -1,0 +1,9 @@
+<div class="progress-container">
+      <div class="progress-title">{{progress.state}}</div>
+
+      <progress ng-show="progress.value < progress.max" max="{{progress.max}}" value="{{progress.value}}"></progress>
+
+      <div ng-show="progress.error">{{progress.error}}</div>
+     
+     <button class="button button-clear" ng-click="abortDownload()">Cancel</button>
+</div>

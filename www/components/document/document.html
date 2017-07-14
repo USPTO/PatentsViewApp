@@ -1,0 +1,99 @@
+<ion-view view-title="Patent">
+    
+        <ion-nav-buttons side="left">
+            <button class="button icon button-clear backButton" ng-click="backButton();"></button>
+        </ion-nav-buttons>
+         
+        <ion-nav-buttons side="right">
+            <button class="button button-icon" ng-click="bookmarkDocument()">
+                <i class="ion-bookmark"></i>
+            </button>
+            <button class="button button-icon" ng-click="share()">
+                <i class="ion-android-share-alt"></i>
+            </button>
+            <button class="button button-icon search-btn" menu-toggle="right"></button>
+        </ion-nav-buttons>
+
+        <ion-content class="has-header" has-bouncing="false">
+            <div class="item error-msg" ng-show="error.code">
+                   Connection Failed <br/> Error: {{error.code}} ({{error.text}})
+                   <a style="margin-left:10px;" class="button button-assertive button-block button-small" ng-click="load()">Retry</a>
+            </div>
+
+            <div class="max-width-center" ng-show="data.patent_number">
+                                    
+	            <div class="item item-body" style="border:0;padding:2px;" ngCloak>
+	            
+	            	<div class="doc-meta" on-hold="bookmarkDocument()">
+	            	
+                        <!--
+		                <div class="item item-avatar">
+		                    <img src="mcfly.jpg" alt="patent thumbnail"> -->
+                        <div class="item">    
+		                    <div class="doc-title">{{::data.patent_title}}</div>
+		                </div>
+		                
+		                <div class="item row doc-field">
+		                   <div class="col field-title">Patent #</div>
+		                   <div class="col field-value">{{::data.applications[0].app_country}} {{::data.patent_number}} {{::data.patent_kind}}</div>
+		                </div>
+		                
+		                <div class="item row doc-field">
+		                       <div class="col field-title">Produced</div>
+							   <div class="col field-value">{{::data.applications[0].app_date  | date:'MM/dd/yyyy' }} </div>
+		                </div>
+		                
+		               <div class="item row doc-field">
+		                   <div class="col field-title">Published</div>
+		                   <div class="col field-value">{{::data.patent_date  | date:'MM/dd/yyyy' }}</div>
+		                </div>
+		                
+		                <div class="item row doc-field" ng-if="data.uspcs">
+		                   <div class="col field-title">Main Classification</div>
+		                   <div class="col field-value">{{::data.uspcs && data.uspcs.length > 0 ? data.uspcs[0].uspc_mainclass_title: ''}}</div>
+		                </div>
+	                
+	                </div>
+	                
+	                <div class="item item-divider">
+	                    Inventors
+	                </div>
+	                <button class="button-block item item-text-wrap item-icon-left doc-entity"
+	                    ng-repeat="inventor in ::data.inventors | orderBy:'inventor_last_name'"
+	                    ng-click="bookmarkInventor($index)">
+                        <i class="icon ion-person"></i>
+	                   {{::inventor.inventor_first_name}} {{::inventor.inventor_last_name}}
+	                </button>
+	                	                
+	                <div class="item item-divider" ng-show="::data.assignees">
+	                    Assignee
+	                </div>
+	                <button class="button-block item item-text-wrap item-icon-left doc-entity no-padding"
+	                    ng-repeat="assignee in ::data.assignees"
+	                    ng-click="bookmarkAssignee($index)">
+  	                    <span ng-show="!assignee.assignee_organization">
+	                        <i class="icon ion-person"></i>
+	                        {{::assignee.assignee_first_name}} {{::assignee.assignee_last_name}}
+	                    </span>
+	                    <span ng-show="assignee.assignee_organization">
+	                        <i class="icon ion-calculator"></i>
+	                        {{::assignee.assignee_organization}}
+                        </span>
+                        <span style="float:right;padding:1em;font-size:0.85em;color:#999;">ID:{{::assignee.assignee_id}}</span>
+	                </button>
+	            </div>
+        	</div>
+        </ion-content>
+       
+         <ion-footer-bar class="max-width-center doc-footer">
+            <div class="button-bar">
+                <a class="button doc-btn" ng-click="openText(data.patent_number)">
+                    <i class="ion-document-text"></i> Text
+                </a>
+                <a class="button doc-btn" ng-click="openPDF(data.patent_number)">
+                    <i class="ion-image"></i> PDF
+                </a>
+            </div>
+        </ion-footer-bar>
+        
+</ion-view>

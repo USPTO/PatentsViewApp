@@ -1,0 +1,63 @@
+<ion-view view-title="Library">
+
+        <ion-nav-buttons side="left">
+             <button ng-show="!selectionMode" class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+             <button ng-if="selectionMode" class="button button-icon select-close" ng-click="disableSelectionMode()"></button>
+        </ion-nav-buttons>
+
+        <ion-nav-buttons side="right">
+        	<span ng-show="!selectionMode">
+   	            <button class="button button-icon" ng-click="filterPopup($event)">
+	                <i class="ion-android-funnel"></i>
+	            </button>
+
+                <button class="button button-icon search-btn" menu-toggle="right"></button>
+        	</span>
+
+            <!--
+        	<span ng-if="selectionMode">         
+                <a class="button button-icon" ng-click="">
+                   <i class="ion-more"></i>
+                </a>
+            </span>
+            -->
+            
+        </ion-nav-buttons>
+
+        <ion-content class="content has-header max-width-center" has-bouncing="false">
+        
+			<!-- Bookmark List --->
+            <ion-list class="item" style="border:0;padding:0;">
+
+                <ion-item class="lib-bookmark" ng-repeat="bookmark in documentList | filter:{stored:filter}:strict" item="bookmark">
+                    <button class="button button-icon lib-bookmark-icon" ng-click="toggleSelectBookmark(bookmark.id, bookmark.stored)">
+                        <i
+                        ng-class="{true: 'ion-android-cloud-done', false: 'ion-android-cloud-outline'}[ selectedBookmarks[bookmark.id] == true ]">
+                        </i>
+                    </button>
+
+                    <button ng-click="openBookmark(bookmark)" class="button lib-bk-text">
+                        <div class="lib-bk-id">{{::bookmark.id}}</div>
+                        <div class="lib-bk-name">{{::bookmark.name}}</div>
+                        <span class="tag tag-entity" ng-if="(bookmark.type == 'person' || bookmark.type == 'org')"> {{::bookmark.subtype}}</span>
+                    </button>
+
+                </ion-item>
+            </ion-list>
+                
+        </ion-content>
+        
+        <ion-footer-bar class="bar-stable max-width-center lib-button-bar">
+            <div ng-if="selectionMode" clas="button-bar buttons" style="width:100%;">
+                <a ng-if="!filter" style="margin:5px;" class="button button-block button-clear" ng-click="downloadAndUnzip();">
+                    <i class="ion-android-download"></i> Download
+                </a>
+                <a ng-if="filter" style="margin:5px;" class="button button-block button-clear" ng-click="">
+                   <i class="ion-android-delete"></i> Remove
+                </a>
+            </div>
+
+            <div ng-if="!selectionMode" style="font-weight:bold;padding:0.5em;line-height:1.5;">Patent documents from your Notebooks.</div>
+        </ion-footer-bar>
+        
+</ion-view>

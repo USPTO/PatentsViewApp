@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v42-2006-08-23.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.2 2006-08-23" file="US07428585-20080923.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20080909" date-publ="20080923">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>07428585</doc-number>
+<kind>B1</kind>
+<date>20080923</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>10630910</doc-number>
+<date>20030731</date>
+</document-id>
+</application-reference>
+<us-application-series-code>10</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>948</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>06</class>
+<subclass>F</subclass>
+<main-group>15</main-group>
+<subgroup>173</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20080923</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>06</class>
+<subclass>F</subclass>
+<main-group>15</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20080923</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification>709223</main-classification>
+<further-classification>709225</further-classification>
+<further-classification>709224</further-classification>
+<further-classification>709229</further-classification>
+</classification-national>
+<invention-title id="d0e53">Local device access controls</invention-title>
+<references-cited>
+<citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5497504</doc-number>
+<kind>A</kind>
+<name>Acampora et al.</name>
+<date>19960300</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>5619716</doc-number>
+<kind>A</kind>
+<name>Nonaka et al.</name>
+<date>19970400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>717167</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5706507</doc-number>
+<kind>A</kind>
+<name>Schloss</name>
+<date>19980100</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5907831</doc-number>
+<kind>A</kind>
+<name>Lotvin et al.</name>
+<date>19990500</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5918019</doc-number>
+<kind>A</kind>
+<name>Valencia</name>
+<date>19990600</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5987611</doc-number>
+<kind>A</kind>
+<name>Freund</name>
+<date>19991100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>726  4</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>6065055</doc-number>
+<kind>A</kind>
+<name>Hughes et al.</name>
+<date>20000500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709229</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6119165</doc-number>
+<kind>A</kind>
+<name>Li et al.</name>
+<date>20000900</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6199204</doc-number>
+<kind>B1</kind>
+<name>Donohue</name>
+<date>20010300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>717178</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>6337899</doc-number>
+<kind>B1</kind>
+<name>Alcendor et al.</name>
+<date>20020100</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>6501741</doc-number>
+<kind>B1</kind>
+<name>Mikkonen et al.</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>6606659</doc-number>
+<kind>B1</kind>
+<name>Hegli et al.</name>
+<date>20030800</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>6684240</doc-number>
+<kind>B1</kind>
+<name>Goddard</name>
+<date>20040100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709217</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>6704031</doc-number>
+<kind>B1</kind>
+<name>Kimball et al.</name>
+<date>20040300</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>6732179</doc-number>
+<kind>B1</kind>
+<name>Brown et al.</name>
+<date>20040500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709229</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>6745367</doc-number>
+<kind>B1</kind>
+<name>Bates et al.</name>
+<date>20040600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709224</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>6795856</doc-number>
+<kind>B1</kind>
+<name>Bunch</name>
+<date>20040900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709224</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>6854009</doc-number>
+<kind>B1</kind>
+<name>Hughes</name>
+<date>20050200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709220</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>6938077</doc-number>
+<kind>B2</kind>
+<name>Sanders</name>
+<date>20050800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709219</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>7039700</doc-number>
+<kind>B2</kind>
+<name>Saeidi</name>
+<date>20060500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709224</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>7124938</doc-number>
+<kind>B1</kind>
+<name>Marsh</name>
+<date>20061000</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>7302488</doc-number>
+<kind>B2</kind>
+<name>Mathew et al.</name>
+<date>20071100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709229</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>2002/0049806</doc-number>
+<kind>A1</kind>
+<name>Gatz et al.</name>
+<date>20020400</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>2002/0116471</doc-number>
+<kind>A1</kind>
+<name>Shteyn</name>
+<date>20020800</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>2002/0147782</doc-number>
+<kind>A1</kind>
+<name>Dimitrova et al.</name>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>709207</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>2003/0005455</doc-number>
+<kind>A1</kind>
+<name>Bowers</name>
+<date>20030100</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>2003/0046413</doc-number>
+<kind>A1</kind>
+<name>Sakakura</name>
+<date>20030300</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00028">
+<document-id>
+<country>CA</country>
+<doc-number>2312460</doc-number>
+<date>20010200</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<patcit num="00029">
+<document-id>
+<country>WO</country>
+<doc-number>WO 99/19988</doc-number>
+<date>19990400</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00030">
+<othercit>Symborski. &#x201c;Updating Software and Configuration Data in a Distributed Communications Network&#x201d;. 1988. Proceedings of the Computer Networking Symposium. pp. 331-338. &#x3c;http://ieeexplore.ieee.org/iel2/194/269/00005011.pdf?arnumber=5011&#x3e;.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+<citation>
+<nplcit num="00031">
+<othercit>Balkin et al. &#x201c;Filtering the Internet: A Best Practices Model&#x201d;. Sep. 15, 1999. Yale Law School. &#x3c;http://www.yale.edu/lawweb/jbalkin/articles/Filters0208.pdf&#x3e;.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+<citation>
+<nplcit num="00032">
+<othercit>Jacob, Varghese et al. &#x201c;Filtering Objectionable Internet Content.&#x201d; Proceeding of the 20th International Conference on Information Systems. Jan. 1999. Association for Information Systems.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+<citation>
+<nplcit num="00033">
+<othercit>Urbaczewski, Andrew et al. &#x201c;Does Electronic Monitoring of Employee Internet Usage Work?&#x201d; Communications of the ACM. vol. 45, No. 1. Jan. 2002. ACM Press. 80-83.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+<citation>
+<nplcit num="00034">
+<othercit>&#x201c;PPP over Ethernet: A Comparison of Alternatives for PC-to-xDSL Modem Connectivity,&#x201d; Redback Networks, Mar. 1999, pp. 1-8.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00035">
+<othercit>Townsley, W., et al., &#x201c;Layer Two Tunneling Protocol &#x2018;L2TP&#x2019;&#x201d;, The Internet Society, 1999, pp. 1-80.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00036">
+<othercit>Evans, Shara, &#x201c;Standards Watch: Tunnelling Through the Web,&#x201d; Mar. 1999, Telsyte&#x2014;Telecommunications Strategic Planning.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00037">
+<othercit>&#x201c;Intel Introduces High Speed Wireless Networking Products Designed for the Home and Small Office,&#x201d; M2 Communications Ltd., 2001, pp. 1-3.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00038">
+<othercit>&#x201c;Embedded Web Guru Co-Authors New Security Standard, Digest Authentication Provides Secure Web Login,&#x201d; Business Wire, Jun. 14, 1999, pp. 1-2.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00039">
+<othercit>Agranat, Ian, &#x201c;Authentication Standardizes Web,&#x201d; <i>Electronic Engineering Times</i>, No. 1018, p. 78, Jul. 27, 1998.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+<citation>
+<nplcit num="00040">
+<othercit>Prosise, Jeff, &#x201c;ASP.NET Security: An Introductory Guide to Building and Deploying More Secure Sites with ASP.NET and IIS,&#x201d; <i>MSDN Magazine</i>, vol. 17, No. 4, p. 54, Apr. 30, 2002.</othercit>
+</nplcit>
+<category>cited by other</category>
+</citation>
+</references-cited>
+<number-of-claims>37</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>709223</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>709225</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>13</number-of-drawing-sheets>
+<number-of-figures>13</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation-in-part>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>10208203</doc-number>
+<kind>00</kind>
+<date>20020731</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>10630910</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation-in-part>
+</us-related-documents>
+<parties>
+<applicants>
+<applicant sequence="001" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Owens, II</last-name>
+<first-name>John Barclay</first-name>
+<address>
+<city>Gainesville</city>
+<state>VA</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+<applicant sequence="002" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Meenan</last-name>
+<first-name>Patrick</first-name>
+<address>
+<city>Gainesville</city>
+<state>VA</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+</applicants>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Fish &#x26; Richardson P.C.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>AOL LLC, a Delaware Limited Liability Company</orgname>
+<role>02</role>
+<address>
+<city>Dulles</city>
+<state>VA</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Cardone</last-name>
+<first-name>Jason</first-name>
+<department>2145</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Swearingen</last-name>
+<first-name>Jeffrey R</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">Using parental controls includes storing parental control information on a user device and receiving a request from the user device to access a destination over a communications network. Parental control information stored on the user device may be used to determine whether to grant the request from the user device. When the parental control information indicates that the request should be allowed, the user device allows access to the destination. When the parental control information indicates that the request should be denied, the user device denies access to the destination. Information that is related to the parental control information stored on the user device may be stored on a remote device. The parental control information stored on the user device may be verified using the information stored on the remote device.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="149.44mm" wi="142.16mm" file="US07428585-20080923-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="236.47mm" wi="162.48mm" orientation="landscape" file="US07428585-20080923-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="228.68mm" wi="146.39mm" orientation="landscape" file="US07428585-20080923-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="168.32mm" wi="173.57mm" file="US07428585-20080923-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="231.82mm" wi="176.02mm" file="US07428585-20080923-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="228.77mm" wi="174.16mm" file="US07428585-20080923-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="179.66mm" wi="97.11mm" file="US07428585-20080923-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="230.55mm" wi="171.03mm" file="US07428585-20080923-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="211.92mm" wi="140.80mm" file="US07428585-20080923-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="164.08mm" wi="159.85mm" orientation="landscape" file="US07428585-20080923-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="233.43mm" wi="177.72mm" file="US07428585-20080923-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="236.39mm" wi="161.88mm" orientation="landscape" file="US07428585-20080923-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="220.73mm" wi="131.49mm" file="US07428585-20080923-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="213.87mm" wi="144.53mm" file="US07428585-20080923-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This application is a continuation-in-part of U.S. patent application Ser. No. 10/208,203, filed Jul. 31, 2002, and titled &#x201c;Mirroring and Validating Parental Control Information,&#x201d; which is incorporated by reference.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">TECHNICAL FIELD</heading>
+<p id="p-0003" num="0002">This description relates to communicating between two systems.</p>
+<heading id="h-0003" level="1">BACKGROUND</heading>
+<p id="p-0004" num="0003">When two systems communicate, a device or an identity using a device in one of the systems typically is identified to the other system. For example, a device or an associated identity in a client system may be identified to a host system. The identification of a device or an identity may permit a host system to make specific features or information available or unavailable to the device or the identity using the device.</p>
+<p id="p-0005" num="0004">For instance, in a household that includes more than one personal computing device, it may be desirable to enable a connection between each device and an online service provider (OSP). It is possible to simply network several devices together in the home to enable interconnectivity among the devices and to enable a connection to outside host systems. With the devices networked together using a home network, the host system may recognize the entire network as a single device.</p>
+<heading id="h-0004" level="1">SUMMARY</heading>
+<p id="p-0006" num="0005">In one general aspect, using parental controls includes storing parental control information on a user device and receiving a request from the user device to access a destination over a communications network. Parental control information stored on the user device may be used to determine whether to grant the request from the user device. When the parental control information indicates that the request should be allowed, the user device allows access to the destination. When the parental control information indicates that the request should be denied, the user device denies access to the destination. Information that is related to the parental control information stored on the user device may be stored on a remote device. The parental control information stored on the user device may be verified using the information stored on the remote device.</p>
+<p id="p-0007" num="0006">Implementations may include one or more of the following features. For example, the information stored on the remote device may include a checksum of a version of the parental control information stored on the user device and the parental control information stored on the user device may be verified using the checksum stored on the remote device. The information stored on the remote device may include a copy of a version of the parental control information stored on the user device and the parental control information stored on the user device may be verified using the copy of the parental control information stored on the remote device. The information stored on the remote device may include a checksum and a copy of the parental control information stored on the user device and the parental control information stored on the user device may be verified using the checksum or the copy of the parental control information stored on the remote device.</p>
+<p id="p-0008" num="0007">The information stored on the remote device may be used to determine whether the parental control information stored on the user device has changed. The information stored on the remote device may be used periodically and/or based on an occurrence of an event to determine whether the parental control information stored on the user device has changed.</p>
+<p id="p-0009" num="0008">The parental control information stored on the user device may include a checksum computed from the version of the parental control information stored on the user device for the parental controls and the parental control information stored on the user device may be verified by comparing the checksum stored on the remote device with the checksum stored on the user device. The parental control information stored on the user device may be updated when the checksum stored on the user device does not match the checksum stored on the remote device. A message may be sent to an identity when the checksum generated from the version of the parental control information stored on the user device does not match the checksum stored on the remote device. A message may be sent to a master user associated with an identity when the checksum generated from the parental control information stored on the user device does not match the checksum stored on the remote device.</p>
+<p id="p-0010" num="0009">The parental control information stored on the user device may be verified by comparing the copy of the parental control information stored on the remote device with the parental control information stored on the user device, and when the parental control information stored on the user device does not match a copy of the parental control information stored on the remote device, the parental control information stored on the user device may be updated. A message may be sent to an identity when the information relating to the parental control information stored on the user device does not match the copy of the parental control information stored on the remote device. A message may be sent to a master user associated with an identity when the information relating to the parental control information stored on the user device does not match the copy of the parental control information stored on the remote device.</p>
+<p id="p-0011" num="0010">The parental control information may include parental control information that is based on age-appropriateness of the content. The parental control information may be indicative of an identity that is signed into a user device. The communications network may include the Internet. The destination may include a web site.</p>
+<p id="p-0012" num="0011">These general and specific aspects may be implemented using a system, a method, or a computer program, or any combination of systems, methods, and computer programs.</p>
+<p id="p-0013" num="0012">Other features will be apparent from the description and drawings, and from the claims.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">DESCRIPTION OF DRAWINGS</heading>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIGS. 1 and 2</figref> are block diagrams illustrating communications systems capable of establishing parental control for a device used in a home network.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIGS. 3</figref>, <b>4</b>, <b>5</b>, and <b>7</b> are block diagrams illustrating communications between a device, a local proxy server, and a host system to establish controls for a device used in a home network.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIGS. 6 and 8</figref> are flow charts of processes performed to establish controls for a device used in a home network.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 9</figref> is a block diagram illustrating a communications system capable of establishing parental controls for a device used in a home network using a host system that applies parental controls and does not provide an online access to the home network.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 10</figref> is a block diagram illustrating communications between a local proxy, an online access provider, and a host system.</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 11</figref> is a block diagram illustrating a communication system capable of establishing parental controls for a device.</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 12</figref> is a flow chart of an exemplary process performed to establish parental controls for a device.</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 13</figref> is a flow chart of an exemplary process performed to verify parental controls for a device.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0022" num="0021">For brevity, several elements in the figures are represented as monolithic entities. However, as would be understood by one skilled in the art, these elements each may include numerous interconnected computers and components designed to perform a set of specified operations and/or dedicated to a particular geographical region.</p>
+<heading id="h-0006" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0023" num="0022">In one exemplary implementation, parental control information may be stored on a local user device and applied to communications between the local user device and a destination. The integrity of the parental control information stored on the local user device may be maintained by storing on a remote device (e.g., a device in a host system) information that is related to the parental control information stored on the local user device and using the information stored on the remote device to verify that there have not been any unauthorized changes to the parental control information stored on the local user device. The information stored on the remote device may include, for example, a checksum and/or a copy of the parental control information.</p>
+<p id="p-0024" num="0023">Referring to <figref idref="DRAWINGS">FIG. 1</figref>, a home networking system <b>100</b> may include multiple home-networked devices <b>112</b> (&#x201c;devices&#x201d;) connected to each other and to a local proxy <b>113</b>. The local proxy <b>113</b> typically connects to a host system <b>120</b> through a communication device <b>119</b> over communication links <b>130</b>.</p>
+<p id="p-0025" num="0024">The home networking system <b>100</b> enables the devices <b>112</b> to communicate with the host system <b>120</b> through the local proxy <b>113</b> using the single communication device <b>119</b>. The devices <b>112</b>, the local proxy <b>113</b>, and the communication device <b>119</b> may be a client system <b>110</b> physically located in a personal residence.</p>
+<p id="p-0026" num="0025">The home networking system <b>100</b> also enables the devices <b>112</b> to access information maintained by the host system <b>120</b> for a particular client device <b>112</b> or a particular individual using one of the devices <b>112</b>. In addition, the home networking system <b>100</b> may enable the host system <b>120</b> to maintain and enforce individual preferences or restrictions associated with a particular client device <b>112</b> or a user of the particular client device <b>112</b>. This may be accomplished through use of unique identifiers, which may be assigned by the host, the client, or another entity. Unique identifiers may be used alone or in combination with other identifiers. Identifiers may include login name, account number, screen name, and password.</p>
+<p id="p-0027" num="0026">Recognition of the particular devices <b>112</b> or the users of the devices permits the host system <b>120</b> to enforce or enable preferences and features, such as access controls (e.g., parental controls) or features available to a specific communication platform or environment. Similarly, the host system's recognition of or distinction among devices and users permits the individual client devices and users to access and receive back from the host certain host-maintained preferences, such as personal identification settings, personal web pages, account information, wallet information, and/or financial information.</p>
+<p id="p-0028" num="0027">When client and host systems communicate, the client system <b>110</b> may provide identifying information that is used by the host system <b>120</b> to determine whether to present (or restrict) information or features. However, in some contexts, the identifying information provided by the client system may not enable the host system to identify a particular client device that is communicating with the host system or the particular person using the communicating client device. This is particularly true in a home-networking environment in which several devices within the home network may communicate through a single access point (e.g., a network access translator (NAT) or other routing device) that purposefully disguises the device identities and in which more than one person may communicate using any one of the several devices.</p>
+<p id="p-0029" num="0028">The local proxy <b>113</b> that is located between the client devices <b>112</b> and the host system <b>120</b> may be used to identify, or provide information about, a client device or a user of a client device that accesses the host system. The local proxy may append information to communications sent by the client device. For instance, the local proxy may append information that identifies or relates to the parental control classification of the user of the client device, the type of the client device, the platform of the client device, the protocol of a system being accessed by the client device, or the operating environment of the client device. The host system may provide, or restrict, access to information or features based on the information appended to communications sent by the client device.</p>
+<p id="p-0030" num="0029">The local proxy generally is local to the client or client network and physically located in a personal residence. The local proxy generally is positioned between the client device and a host system external to the client system. The host system may be, for example, an Internet access provider device, a host system proxy server, or another external system device.</p>
+<p id="p-0031" num="0030">The local proxy may store an additional copy of (or mirror) parental control information associated with one or more users or client devices. The local proxy may be used to restrict communications based on the parental control classification of a user or a device and/or may be used to verify that parental control information has not been improperly modified or accessed.</p>
+<p id="p-0032" num="0031">The devices <b>112</b> and the local proxy <b>113</b> typically are located in a physical place that enables the local proxy <b>113</b> to network with the devices <b>112</b>. In one implementation, for example, the local proxy <b>113</b> is physically located in a personal residence (e.g., a single-family dwelling, a house, a townhouse, an apartment, or a condominium). The devices <b>112</b> may be physically located such that communications with the local proxy <b>113</b> are enabled and maintained. For instance, when the local proxy <b>113</b> is physically located in a personal residence, the devices <b>112</b> also may be physically located in the personal residence. The location of the local proxy <b>113</b> in the personal residence does not necessarily preclude one or more of the devices <b>112</b> from being networked to the local proxy <b>113</b> from a remote location. Similarly, the location of the local proxy does not necessarily preclude use of one or more of the devices <b>112</b> from outside of the personal residence or communication by those devices with the host system <b>120</b> through the local proxy <b>113</b>. For instance, the devices <b>112</b> may include one or more portable computing devices that may be taken outside of the personal residence and still remain connected to the local proxy <b>113</b> located within the personal residence through a wireless network <b>110</b>.</p>
+<p id="p-0033" num="0032">The devices <b>112</b> may include one or more general-purpose computers (e.g., personal computers), one or more special-purpose computers (e.g., devices specifically programmed to communicate with the local proxy <b>113</b> and/or the host system <b>120</b>), or a combination of one or more general-purpose computers and one or more special-purpose computers. Other examples of devices <b>112</b> include a workstation, a server, an appliance (e.g., a refrigerator, a microwave, and an oven), an intelligent household device (e.g., a thermostat, a security system, a heating, ventilation and air conditioning (HVAC) system, and a stereo system), a device, a component, other physical or virtual equipment, or some combination of these elements capable of responding to and executing instructions within the system architecture.</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 1</figref> shows several implementations and possible combinations of devices and systems used within the home networking system <b>100</b>. Examples of devices <b>112</b> may include, but are not limited to, a personal computer with a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, a TV set-top box <b>112</b><i>d</i>, a PDA <b>112</b><i>e</i>, and a home appliance <b>112</b><i>f</i>. The devices <b>112</b> are connected through a network to the local proxy <b>113</b>.</p>
+<p id="p-0035" num="0034">Some of the devices <b>112</b>, such as a personal computer with Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, and a PDA <b>112</b><i>e</i>, include software for logging on to the host system <b>120</b> using a particular identity associated with the user of the device. Such devices may be referred to as client devices. Other devices, such as a home appliance <b>112</b><i>f</i>, may include software for logging on to host system <b>120</b> without identifying an associated identity of the user of the device and may be referred to as non-client devices. Yet other devices, such as a TV set-top <b>112</b><i>d</i>, may be able to function either as a client device or a non-client device depending on the function being performed.</p>
+<p id="p-0036" num="0035">The local proxy <b>113</b> may be a protocol server module, such as the protocol server module <b>213</b> discussed below with respect to <figref idref="DRAWINGS">FIG. 2</figref>; a home gateway device, a router, or another communications device; and/or a home entertainment device, such as a stereo system, a radio tuner, a TV tuner, a portable music player, a personal video recorder, or a gaming device. The local proxy <b>113</b> may be referred to as a client-side proxy. The local proxy <b>113</b> is separated from the host system <b>120</b> by communications links <b>130</b>. In some implementations, host system <b>120</b> may be an online access provider, such as an Internet access provider. The online access provider is separated from the local proxy <b>113</b> by communications links <b>130</b>.</p>
+<p id="p-0037" num="0036">The local proxy <b>113</b> typically connects to the host system <b>120</b> using a communication device <b>119</b>. Examples of the communication device <b>119</b> may include (and are not limited to) a satellite modem <b>119</b><i>a</i>, an analog modem <b>119</b><i>b</i>, a cable modem <b>119</b><i>c</i>, and an DSL modem <b>119</b><i>d</i>. The local proxy <b>113</b> uses the communication device <b>119</b> to communicate through communication links <b>130</b> with the host system <b>120</b>. The communication links <b>130</b> may include various types of communication delivery systems that correspond to the type of communication device <b>119</b> being used. For example, if the local proxy <b>113</b> includes a satellite modem <b>119</b><i>a</i>, then the communications from the devices <b>112</b> and the local proxy <b>113</b> may be delivered to the host system <b>120</b> using a satellite dish <b>130</b><i>a </i>and a satellite <b>130</b><i>b</i>. The analog modem <b>119</b><i>b </i>may use one of several communications links <b>119</b>, such as the satellite dish <b>130</b><i>a </i>and satellite <b>130</b><i>b</i>, the Plain Old Telephone Service (POTS) <b>130</b><i>c</i>, and the Cable Modem Termination System (CMTS) <b>130</b><i>d</i>. The cable modem <b>119</b><i>c </i>typically uses the CMTS <b>130</b><i>d </i>to deliver and receive communications from the host system <b>120</b>. The DSL modem <b>119</b><i>d </i>typically delivers and receives communications with the host system <b>120</b> through a Digital Subscriber Line Access Multiplexer (DSLAM) <b>130</b><i>e </i>and an Asynchronous Transfer Mode (ATM) network <b>130</b><i>f. </i></p>
+<p id="p-0038" num="0037">The home networking system <b>100</b> may use various protocols to communicate between the devices <b>112</b> and the local proxy <b>113</b> and between the local proxy <b>113</b> and the host system <b>120</b>. For example, a first protocol may be used to communicate between the devices <b>112</b> and the local proxy <b>113</b>, and a second protocol may be used to communicate between the local proxy <b>113</b> and the host system <b>120</b>. In one implementation, the first protocol and the second protocol may be the same. In another implementation, the first protocol and the second protocol may be different. The local proxy <b>113</b> may include different hardware and/or software modules to implement different home networking system protocols.</p>
+<p id="p-0039" num="0038">The local proxy <b>113</b> may append parental control information to communications prior to sending the communications to the host system <b>120</b>. For example, the local proxy <b>113</b> may access parental control information <b>113</b><i>a </i>that is associated with the identity using the device <b>112</b> that is sending the communication, insert the accessed parental control information in the communication, and sent the communication including the parental control information to the host system <b>120</b>.</p>
+<p id="p-0040" num="0039">Additionally or alternatively, the local proxy <b>113</b> may function to filter communications before the communication is sent the host system <b>120</b>. For instance, the local proxy <b>113</b> may apply parental controls to communications sent using one of the devices <b>112</b> based on the identity and/or the device that is sending the communication. This may be accomplished by accessing parental control information <b>113</b><i>a </i>that is associated with the identity and/or the device that is sending the communication. Access control list information <b>113</b><i>b </i>is used to identify destinations that may not be accessed based on the parental control information <b>113</b><i>a </i>(e.g., a particular parental control level) associated with the identity and/or the device sending the communication. The communication is sent to the host system <b>120</b> only when the access control list information permits the destination to be accessed by the identity and/or device sending the communication.</p>
+<p id="p-0041" num="0040">The local proxy <b>113</b> may append device information to communications prior to sending the communications to the host system <b>120</b>. For example, the local proxy <b>113</b> may access device information <b>113</b><i>c </i>that is associated with the device that is sending the communication, insert the accessed device information in the communication, and send the communication including the accessed device information to the host system <b>120</b>.</p>
+<p id="p-0042" num="0041">Device information <b>113</b><i>c </i>may be stored in a configuration table or list on the local proxy <b>113</b>, and may be associated with a device identifier for a device, such as devices <b>112</b><i>a</i>-<b>112</b><i>f </i>The device identifier may include a hardware device identifier, such as a MAC (&#x201c;Media Access Control&#x201d;) address, and/or a network address, such as a static IP address associated with the device or a dynamic IP address. The dynamic IP address may be assigned by local proxy <b>113</b> or by some other network device or the host system <b>120</b> through the Dynamic Host Configuration Protocol or another protocol that enables the dynamic allocation of an IP address to a device on a network. The device information <b>113</b><i>c </i>associated with each device may include, for example, the type of device (e.g., a client or a non-client device), the class of device (e.g., a gaming device, a personal computer, or a PDA), the type of platform (e.g., the type of hardware, such as a Macintosh&#x2122; personal computer, a Windows&#x2122;-based personal computer, a Linux&#x2122; based personal computer, a PDA, a home appliance, or an entertainment device), and/or the operating environment (e.g., operating system type and/or version).</p>
+<p id="p-0043" num="0042">The local proxy <b>113</b> may be configured in a hub-and-spoke configuration in which the functions performed by the local proxy <b>113</b> are distributed to other devices (e.g., a parental control device) that are directed by the local proxy <b>113</b>. Alternatively, for example, the local proxy <b>113</b> may be configured to include both the parental control functions and the gateway functions. The local proxy <b>113</b> also may be implemented in other network configurations.</p>
+<p id="p-0044" num="0043"><figref idref="DRAWINGS">FIG. 2</figref> shows an implementation of a communications system <b>200</b> that includes a client system <b>210</b>, a host system <b>220</b>, and a communications link <b>230</b>. The client system <b>210</b> may include one or more of an OS protocol stack <b>211</b>, a protocol server module <b>213</b>, a controller module <b>215</b>, an optional adapter interface <b>217</b>, and a communications device <b>219</b>. The OS protocol stack <b>211</b> may be included as part of an operating system (&#x201c;OS&#x201d;). The OS protocol stack <b>211</b> may be designed for or capable of enabling the OS to encapsulate data for communication. In general, the OS protocol stack <b>211</b> may be implemented using a PPP (&#x201c;Point-to-Point Protocol&#x201d;) interface. For example, Windows&#x2122; OSs generally include a NDISWAN (&#x201c;Network Device Interface Specification for Wide Area Networks&#x201d;) component that functions as the PPP interface. In some Windows&#x2122; OSs and in some other types of OSs, a PPP Daemon (PPPD) may function as the PPP interface.</p>
+<p id="p-0045" num="0044">The protocol server module <b>213</b> may be structured and arranged to interface with the client device OS protocol stack <b>211</b> and the controller module <b>215</b>. The protocol server module <b>213</b> enables the client system <b>210</b> and the host system <b>220</b> to communicate through the delivery network <b>236</b> using any one of several encapsulating protocols.</p>
+<p id="p-0046" num="0045">The protocol server module <b>213</b> may intercept and take over a communications session that the OS protocol stack <b>211</b> attempts to initiate with the host system <b>220</b> using a first protocol. For example, the OS protocol stack <b>211</b> may start a communications session intending to negotiate and exchange configuration data with the host system <b>220</b> using the first protocol. Instead, the protocol server module <b>213</b> may &#x201c;spoof&#x201d; the host system <b>220</b> and intercept the communications session from the OS protocol stack <b>211</b>, rather than having the OS protocol stack <b>211</b> communicate directly with the host system <b>220</b>. The spoofing typically is transparent to the OS protocol stack <b>211</b> and the host system <b>220</b>. By capturing the communications session at the protocol server module <b>213</b>, the protocol server module <b>213</b> may negotiate a separate or a substitute communications session with the host system <b>220</b> using a second protocol that is different from the first protocol. Based on this second protocol, data from the OS protocol stack <b>211</b> may be routed to the host system <b>220</b> over the separate or substitute communications session. Similarly, the protocol server module <b>213</b> may be used to spoof the OS protocol stack <b>211</b> from the perspective of the host system <b>220</b> such that the host system <b>220</b> may unknowingly and/or unintentionally transmit to the protocol server module <b>213</b> the configuration and/or other data that is destined for the OS protocol stack <b>211</b> under the second protocol. The protocol server module <b>213</b> then may transport this data to the OS protocol stack <b>211</b> using the first protocol.</p>
+<p id="p-0047" num="0046">Data packets that are destined to be communicated between the OS protocol stack <b>211</b> and the host system <b>220</b> are translated by the protocol server module <b>213</b> between the first protocol and the second protocol. For example, when the data packets include encapsulation, the protocol server module <b>213</b> may translate the data packets by removing the encapsulation from the data packets. Additionally or alternatively, the protocol server module <b>213</b> may translate the data packets by encapsulating previously unencapsulated data packets or re-encapsulating previously encapsulated data packets using any one of several communications protocols.</p>
+<p id="p-0048" num="0047">The protocol server module <b>213</b> may interface directly with the OS protocol stack <b>211</b>, or the client system <b>210</b> may further include an interface adapter <b>217</b> that the protocol server module <b>213</b> uses to interface with the OS protocol stack <b>211</b>. For instance, in some OSs in which the OS protocol stack <b>211</b> is implemented using a PPPD, the protocol server module <b>213</b> may interface directly with the PPPD without the need for an interface adapter <b>217</b>. By contrast, in other OSs, such as the Windows&#x2122; OS, in which the OS protocol stack <b>211</b> is implemented using NDISWAN, the adapter <b>217</b> may be used to interface the protocol server module <b>213</b> and the NDISWAN protocol stack. More specifically, for example, a WAN (&#x201c;Wide Area Network&#x201d;) Miniport adapter <b>217</b> may be used as a virtual modem to interface the protocol server module <b>213</b> and the NDISWAN.</p>
+<p id="p-0049" num="0048">In one implementation, the protocol server module <b>213</b> may include a PPP (&#x201c;Point-to-Point Protocol&#x201d;) server module. When the protocol server module <b>213</b> functions as a PPP server module, it may capture a PPP communications session between the OS protocol stack <b>211</b> and the host system <b>220</b>. The PPP server module also negotiates a PPP communications session with the OS protocol stack <b>211</b>. The PPP server module may translate PPP data packets from the OS protocol stack <b>211</b> destined for the host system <b>220</b>. For example, the protocol server module <b>213</b> may translate the data packets by removing the PPP encapsulation. The data packets may include data packets in a format consistent with, for example, Internet Protocol (IP) data, Transmission Control Protocol (TCP) data, other data capable of being encapsulated by an encapsulating protocol, or a combination of these data formats. The data packets may include Layer Three data packets. After removing the PPP encapsulation, the PPP server module may encapsulate the packets in any one of several encapsulating protocols (e.g., PPP, UDP (&#x201c;User Datagram Protocol&#x201d;), L2TP (&#x201c;Layer Two Tunneling Protocol&#x201d;), and PPP over Ethernet (&#x201c;PPPoE&#x201d;)). Additionally, the protocol server module <b>213</b> may translate data packets from the host system <b>220</b> by removing the encapsulation from the data packets and encapsulating the packets in PPP, and then may transport the packets to the client device OS protocol stack <b>211</b>.</p>
+<p id="p-0050" num="0049">The protocol server module <b>213</b> may append parental control information to packets of data prior to transporting the packets to the host system <b>220</b>. For example, the protocol server module <b>213</b> may access parental control information that is associated with the identity that is sending the communication using the client system <b>210</b> and that is stored, for example, on the client system <b>210</b> (not shown). The parental control information accessed may be inserted in the communication and transported in the packets of data sent to the host system <b>220</b>.</p>
+<p id="p-0051" num="0050">Additionally or alternatively, the protocol server module <b>213</b> may function to filter packets of data prior to transporting the packets to the host system <b>220</b>. For instance, the protocol server module <b>213</b> may apply parental controls to communications sent using the client system <b>210</b> based on the identity that is sending the communication using the client system <b>210</b>. This may be accomplished by accessing parental control information that is associated with the identity that is sending the communication and accessing an access control list of permitted or restricted addresses based on parental control information that is associated with the identity and that is stored on the client system <b>210</b>.</p>
+<p id="p-0052" num="0051">The protocol server module <b>213</b> may be configured to enable the client system <b>210</b> to communicate with the host system <b>220</b> using various encapsulating protocols that are supported by the delivery network <b>236</b> and the host system <b>220</b>, regardless of whether these protocols are otherwise supported by the client system <b>210</b>. For instance, although a client system <b>210</b> may support only a PPP encapsulating protocol through its OS protocol stack <b>211</b>, the protocol server module <b>213</b> may function to enable the client system <b>210</b> to communicate through the delivery network <b>236</b> with the host system <b>220</b> using other encapsulating protocols. In a more specific example, the protocol server module <b>213</b> generally enables the client system having only a PPP protocol interface to communicate with the host system <b>220</b> using, for example, L2TP, PPP, PPPoE, UDP tunneling, token tunneling (e.g., a P3 tunnel), any other encapsulating protocols and tunneling mechanisms, or a combination of these encapsulating protocols and tunneling mechanisms.</p>
+<p id="p-0053" num="0052">The protocol server module <b>213</b> may be implemented as a client application or as a software module within a client application. Examples of client applications include AOL (&#x201c;America Online&#x201d;) client, a CompuServe client, an AIM (&#x201c;America Online Instant Messenger&#x201d;) client, an AOL TV (&#x201c;America Online Television&#x201d;) client, and an ISP (&#x201c;Internet Service Provider&#x201d;) client capable of communicating with other computer users, accessing various computer resources, and viewing, creating, or otherwise manipulating electronic content). The encapsulation may be performed by the protocol server module <b>213</b>, or alternatively, it may be performed by a separate client application (e.g., PPP client, UDP client, PPPoE client, L2TP client, or AOL client).</p>
+<p id="p-0054" num="0053">The controller module <b>215</b> may be logically connected to the protocol server module <b>213</b> and may be structured and arranged to control communications between the OS protocol stack <b>211</b>, the protocol server module <b>213</b>, and the host system <b>220</b>. The controller module <b>215</b> may be implemented as a client application or as a software module within a client. Additionally, the controller module <b>215</b> may function to control the communications device <b>219</b>.</p>
+<p id="p-0055" num="0054">The communications device <b>219</b> typically has the attributes of and includes one or more of the communications devices described above with respect to communications device <b>119</b> of <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0056" num="0055">The communications link <b>230</b> may include communications pathways <b>232</b>, <b>234</b> that enable communications through the one or more delivery networks <b>236</b>. The delivery network <b>236</b> that provides a direct or an indirect communications path between the client system <b>210</b> and the host system <b>220</b>, irrespective of physical separation. Examples of a delivery network <b>236</b> include the Internet, the World Wide Web, WANs, LANs, analog or digital wired and wireless telephone networks (e.g., PSTN (&#x201c;Public Switched Telephone Network&#x201d;), ISDN (&#x201c;Integrated Services Digital Network&#x201d;), and DSL (&#x201c;Digital Subscriber Line&#x201d;) including various forms of DSL such as SDSL (&#x201c;Single-line Digital Subscriber Line&#x201d;), ADSL (&#x201c;Asymmetric Digital Subscriber Loop), HDSL (&#x201c;High bit-rate Digital Subscriber Line&#x201d;), and VDSL (&#x201c;Very high bit-rate Digital Subscriber Line), radio, TV, cable, satellite, and/or any other delivery mechanism for carrying data. Each of the communications pathways <b>232</b>, <b>234</b> may include, for example, a wired, wireless, cable or satellite communications pathway.</p>
+<p id="p-0057" num="0056">Referring to <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, a procedure <b>300</b> or <b>400</b> may be used to enable parental controls for a device used in a home network. A client device <b>310</b> or <b>410</b>, such as a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, or a PDA <b>112</b><i>e </i>described previously with respect to <figref idref="DRAWINGS">FIG. 1</figref>, communicates to a local proxy <b>313</b> or <b>413</b>, such as local proxy <b>113</b> in <figref idref="DRAWINGS">FIG. 1</figref> or protocol server module <b>213</b> in <figref idref="DRAWINGS">FIG. 2</figref>. The local proxy <b>313</b> or <b>413</b> communicates with the host system <b>320</b> or <b>420</b>, such as the previously-described host system <b>120</b> or <b>220</b>.</p>
+<p id="p-0058" num="0057">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, an exemplary procedure <b>300</b> may be used to enable parental controls for a device used in a home network when access control information associated with the parental controls and the device or the identity associated with the device is stored at the local proxy <b>313</b>. The access control information may be a mirrored copy of access control information stored by the host system <b>320</b>.</p>
+<p id="p-0059" num="0058">The procedure <b>300</b> begins when the client device <b>310</b> submits a request to access some content or a function accessible through the host system <b>320</b> (step <b>360</b><i>c</i>). The local proxy <b>313</b> receives the request to access the content or function (step <b>360</b><i>p</i>), and inserts into the request or otherwise associates with the request the access control information associated with the client device <b>310</b> or the identity using the client device <b>310</b> (step <b>364</b><i>p</i>). The local proxy <b>313</b> sends the request with the inserted access control information to the host system <b>320</b> (step <b>368</b><i>p</i>).</p>
+<p id="p-0060" num="0059">The host system <b>320</b> receives the request with the access control information (step <b>370</b><i>h</i>) and applies access controls based on the request and appended control information (step <b>374</b><i>h</i>). For example, the host system <b>320</b> may use an access control list that identifies whether the client device <b>310</b> or identity using the client device <b>310</b> may access the requested content or function. The host system <b>320</b> enables appropriate access based on the request and the access control information (step <b>375</b><i>h</i>).</p>
+<p id="p-0061" num="0060">Referring to <figref idref="DRAWINGS">FIG. 4</figref>, a procedure <b>400</b> is a more specific example of a process to enable parental controls for a device used in a home network. The procedure <b>400</b> begins when the client device <b>410</b> submits a request for access to the host system <b>420</b> (step <b>430</b><i>c</i>). The local proxy <b>413</b> receives the request for access and forwards the request to the host system <b>420</b> (step <b>430</b><i>p</i>).</p>
+<p id="p-0062" num="0061">The host system <b>420</b> receives the request for access (step <b>430</b><i>h</i>) and requests authentication information if not previously provided (step <b>434</b><i>h</i>). The local proxy <b>413</b> receives the request for authentication information and forwards the request to the client device <b>410</b> (step <b>434</b><i>p</i>).</p>
+<p id="p-0063" num="0062">The client device <b>410</b> receives the request for authentication information (step <b>434</b><i>c</i>) and submits authentication information (step <b>438</b><i>c</i>). For example, the client device <b>410</b> may submit a screen name and password or other authenticating information. The local proxy <b>413</b> receives the authentication information and forwards the authentication information on to the host system <b>420</b> (step <b>438</b><i>p</i>).</p>
+<p id="p-0064" num="0063">The host system <b>420</b> receives the authentication information (step <b>438</b><i>h</i>) and authenticates the client device <b>410</b> (step <b>440</b><i>h</i>). If the host system <b>420</b> determines that the identity associated with the client device <b>410</b> is not an authenticated user, the host system may take any of several actions, including terminating the session immediately, sending a message to the client device <b>410</b>, or sending a message to a master or supervisory account associated with the local proxy <b>413</b>.</p>
+<p id="p-0065" num="0064">When the host system <b>420</b> determines that the identity associated with the client device <b>410</b> is an authenticated user, the host system <b>420</b> accesses parental control information for the identity associated with the client device <b>410</b> (step <b>444</b><i>h</i>). For example, the host system <b>420</b> may determine the parental control level associated with the identity associated with the client device <b>410</b>. This may be accomplished, for example, by using a table indexed by screen name (or otherwise) to look-up the parental control level associated with a particular screen name. As shown below, the table may identify an account, a password, and a parental control level associated with a screen name.</p>
+<p id="p-0066" num="0065">
+<tables id="TABLE-US-00001" num="00001">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="49pt" align="left"/>
+<colspec colname="3" colwidth="42pt" align="left"/>
+<colspec colname="4" colwidth="70pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>Master Account</entry>
+<entry>Screen Name</entry>
+<entry>Password</entry>
+<entry>Parental Control Level</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>SmithFamily</entry>
+<entry>Robert_Smith</entry>
+<entry>5846%JYNG</entry>
+<entry>Adult</entry>
+</row>
+<row>
+<entry>SmithFamily</entry>
+<entry>Suzie_Smith</entry>
+<entry>6748#474V</entry>
+<entry>YoungTeen</entry>
+</row>
+<row>
+<entry>SmithFamily</entry>
+<entry>Bill_Smith</entry>
+<entry>JHG7868$0</entry>
+<entry>MatureTeen</entry>
+</row>
+<row>
+<entry>JonesFamily</entry>
+<entry>Greg_Jones</entry>
+<entry>85775$#59</entry>
+<entry>Adult</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0067" num="0066">The host system sends the accessed parental control information for the identity associated with the client device <b>410</b> to local proxy <b>413</b> (step <b>448</b><i>h</i>). The local proxy <b>413</b> receives the parental control information for the identity associated with the client device <b>410</b> (step <b>448</b><i>p</i>) and stores the parental control information for the identity associated with the client device <b>410</b> in transient or persistent storage (step <b>450</b><i>p</i>). The local proxy <b>413</b> sends an acknowledgment message to the host system <b>420</b> (step <b>454</b><i>p</i>).</p>
+<p id="p-0068" num="0067">The steps <b>448</b><i>p</i>-<b>454</b><i>h </i>may be referred to as mirroring parental control information. In some implementations, steps the same as or similar to steps <b>444</b><i>h</i>-<b>454</b><i>p </i>may be performed independently of receiving a request for access to the host system from a client device. For example, the local proxy may request parental control information for one or more identities and/or one or more devices upon activation or connection to the host system.</p>
+<p id="p-0069" num="0068">The host system <b>420</b> receives the acknowledgment message (step <b>454</b><i>h</i>) and provides access to the client device <b>410</b> based on parental control information associated with the identity using the client device <b>410</b> (step <b>458</b><i>h</i>). The local proxy <b>413</b> provides access to client device <b>410</b> (step <b>458</b><i>p</i>), which receives access to the host system <b>420</b> (step <b>458</b><i>c</i>).</p>
+<p id="p-0070" num="0069">Upon receiving access to the host system, the client device <b>410</b> may submit a request to access the content or function associated with a particular address or a range of addresses (step <b>460</b><i>c</i>). The local proxy <b>413</b> receives the request to access the content or function associated with the address or range of addresses (step <b>460</b><i>p</i>), and inserts into or otherwise associates with the request the parental control level for the identity using the client device <b>410</b> (step <b>464</b><i>p</i>). For example, the local proxy <b>413</b> may look-up the parental control information (here, the parental control level) that the local proxy <b>413</b> stored in step <b>450</b><i>p </i>and append the parental control information (here, the parental control level) to the request received in step <b>460</b><i>p</i>. The local proxy <b>413</b> sends the request with the inserted parental control information to the host system <b>420</b> (step <b>468</b><i>p</i>).</p>
+<p id="p-0071" num="0070">The host system <b>420</b> receives the request with the parental control information (step <b>470</b><i>h</i>) and applies parental controls (step <b>474</b><i>h</i>). For example, the host system <b>420</b> may access an access control list that identifies the addresses to which a particular parental control level is permitted or denied access, as depicted in the table below.</p>
+<p id="p-0072" num="0071">
+<tables id="TABLE-US-00002" num="00002">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="8">
+<colspec colname="1" colwidth="42pt" align="center"/>
+<colspec colname="2" colwidth="21pt" align="center"/>
+<colspec colname="3" colwidth="28pt" align="center"/>
+<colspec colname="4" colwidth="28pt" align="center"/>
+<colspec colname="5" colwidth="28pt" align="center"/>
+<colspec colname="6" colwidth="28pt" align="center"/>
+<colspec colname="7" colwidth="21pt" align="center"/>
+<colspec colname="8" colwidth="21pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="8" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>Mature</entry>
+<entry/>
+<entry>Young</entry>
+<entry/>
+<entry>Child</entry>
+</row>
+<row>
+<entry/>
+<entry>Adult</entry>
+<entry>Mature</entry>
+<entry>Teen</entry>
+<entry>Young</entry>
+<entry>Teen</entry>
+<entry>Child</entry>
+<entry>Not</entry>
+</row>
+<row>
+<entry/>
+<entry>Al-</entry>
+<entry>Teen</entry>
+<entry>Not</entry>
+<entry>Teen</entry>
+<entry>Not</entry>
+<entry>Al-</entry>
+<entry>Al-</entry>
+</row>
+<row>
+<entry/>
+<entry>low-</entry>
+<entry>Allow-</entry>
+<entry>Allow-</entry>
+<entry>Allow-</entry>
+<entry>Allow-</entry>
+<entry>low-</entry>
+<entry>low-</entry>
+</row>
+<row>
+<entry>Address</entry>
+<entry>ed</entry>
+<entry>ed</entry>
+<entry>ed</entry>
+<entry>ed</entry>
+<entry>ed</entry>
+<entry>ed</entry>
+<entry>ed</entry>
+</row>
+<row>
+<entry namest="1" nameend="8" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>123.45.67.*</entry>
+<entry>X</entry>
+<entry>X</entry>
+<entry/>
+<entry/>
+<entry>X</entry>
+<entry/>
+<entry>X</entry>
+</row>
+<row>
+<entry>123.45.68.*</entry>
+<entry>X</entry>
+<entry/>
+<entry>X</entry>
+<entry/>
+<entry>X</entry>
+<entry/>
+<entry>X</entry>
+</row>
+<row>
+<entry namest="1" nameend="8" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+<br/>
+An address that occurs within the range of addresses (here, the range 123.45.67.000 to 123.45.67.999 is indicated by 123.45.67.*) may be accessed by the adult and mature teen parental control levels and may not be accessed by the young teen and child parental control levels. An address that occurs within the range of addresses as indicated by 123.45.68.* (here, 123.45.68.000 to 123.45.68.999) may be accessed only by the adult parental control level and may not be accessed by a mature teen, young teen or child parental control level.
+</p>
+<p id="p-0073" num="0072">Some implementations may use different data management techniques. For example, the parental control level of adult may not be controlled, and that level may not appear on any access control list for that reason. For example, a particular access control list may include the addresses that are associated with a particular parental control level (e.g., an access control list for a mature teen, another access control list for a young teen, and yet another access control list for a child). Some implementations may include the addresses that a particular parental control level may not access, which may be referred to as a block list or black list for a particular parental control level. Similarly, a particular access control list may include the addresses that a particular parental control level may access, which may be referred to as a white list for a particular parental control level. For example, an access control list may contain the list of addresses that may be accessed by a mature teen, and another access control list may contain the list of addresses that may not be accessed by a young teen.</p>
+<p id="p-0074" num="0073">Alternatively, some implementations may only apply parental controls to communications from client devices when the parental control level associated with the screen name of the identity using the client device corresponds to a particular level or a set of particular levels. In such a case, step <b>474</b><i>h </i>may be unnecessary and/or redundant, and therefore may not be performed. For example, when a host system uses parental control levels of adult, mature teen, young teen, and child, the host system may only apply parental controls to communications from client devices when the parental control level associated with the screen name of the identity using the client device is a mature teen, young teen or child, and may not apply parental controls to communications when the parental control level is an adult. In this case, step <b>474</b><i>h </i>would not be performed for a device with adult-level access.</p>
+<p id="p-0075" num="0074">The host system <b>420</b> retrieves the content as permitted by the parental control application (step <b>478</b><i>h</i>). That is, when the application of parental controls in step <b>474</b><i>h </i>allows the identity to access the address requested, the host system <b>420</b> retrieves the content associated with the address requested (e.g., the World Wide Web page associated with a particular Internet address). When the application of parental controls in step <b>474</b><i>h </i>does not allow the identity of the client device <b>410</b> to access the requested address, step <b>478</b><i>h </i>is not performed.</p>
+<p id="p-0076" num="0075">Some implementations may use one or more heuristic or algorithmic procedures to analyze the content associated with the received address after retrieval to determine whether the content is appropriate for one or more particular parental control levels. For example, a list of keywords may be associated with prohibited content for a particular parental control level or a set of particular parental control levels. When the content is not appropriate for the parental control level of the identity associated with the client device <b>410</b>, the content is not sent to the local proxy <b>413</b>.</p>
+<p id="p-0077" num="0076">The host system <b>420</b> sends the content as permitted by the application of parental controls to the client device <b>410</b> (step <b>480</b><i>h</i>). When the identity associated with the client device <b>410</b> is permitted to access the requested address and/or the content or a function associated with the requested address, the content is sent to the local proxy <b>413</b>, and the local proxy <b>413</b> receives and forwards the content to client device <b>410</b> (step <b>480</b><i>p</i>). The client device <b>410</b> receives the content (step <b>480</b><i>c</i>).</p>
+<p id="p-0078" num="0077">When the identity associated with the client device <b>410</b> is not permitted to access the requested address and/or the content or a function associated with the requested address, the host system <b>420</b> sends a message indicating that access is not permitted to the local proxy <b>413</b> (step <b>480</b><i>h</i>). The local proxy <b>413</b> receives and forwards the message indicating that access is not permitted to the client device <b>410</b> (step <b>480</b><i>p</i>), and the client device <b>410</b> receives the message (<b>480</b><i>c</i>).</p>
+<p id="p-0079" num="0078">In some cases the local proxy <b>413</b> may apply the parental controls. For example, the local proxy <b>413</b> may be used to restrict communications based on one or more access control lists (e.g., in a step similar to <b>474</b><i>h</i>) and/or heuristic or algorithmic procedures (e.g., in a step similar to step <b>478</b><i>h</i>). The application of parental controls by the local proxy <b>413</b> may be advantageous. For example, the local proxy <b>613</b> may regulate local content and services provided by the home network, such as the application of parental controls to internal communications between devices (e.g., device-to-device communications).</p>
+<p id="p-0080" num="0079">Referring to <figref idref="DRAWINGS">FIG. 5</figref>, a procedure <b>500</b> may be used to enable parental controls for a device used in a home network by mirroring host-based parental control settings on the home network. The procedure <b>500</b> may be used when parental control settings are stored on a local proxy. The mirroring of host-based parental control settings on the local proxy allows a comparison between the parental control settings on the host system and the locally-stored parental control settings, which may help detect when local parental control settings have been improperly modified or accessed.</p>
+<p id="p-0081" num="0080">Parental control settings may include, for example, the parental control information (such as a parental control level) associated with screen names, and information identifying an account (such as an email address) to which a message should be sent when parental control settings on local proxy <b>513</b> do not match parental control settings on the host system <b>520</b>. Parental control settings for one or more screen names that use local proxy <b>513</b> to access the host system <b>520</b> may be grouped or otherwise associated with local proxy <b>513</b>. For example, parental control settings for the screen names may be associated with a particular master user account (such as a family account) or may be associated with local proxy <b>513</b>. In addition, or as an alternative, some implementations may include parental control information associated with devices connected to the home network, such as client devices a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, and a PDA <b>112</b><i>e</i>, or a non-client device, such as an intelligent home appliance <b>112</b><i>f</i>, as described with respect to <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0082" num="0081">A local proxy <b>513</b>, such as local proxy <b>113</b> in <figref idref="DRAWINGS">FIG. 1</figref>, protocol server module <b>213</b> in <figref idref="DRAWINGS">FIG. 2</figref>, local proxy <b>313</b> in <figref idref="DRAWINGS">FIG. 3</figref>, or local proxy <b>413</b> in <figref idref="DRAWINGS">FIG. 4</figref>, communicates with the host system <b>520</b>, such as host system <b>120</b>, <b>220</b>, <b>330</b>, or <b>430</b> described previously, to mirror parental control settings. The procedure <b>500</b> begins when an event triggers a check for parental control settings at the local proxy server (step <b>530</b>). Such an event, may include, for example, when the local proxy <b>513</b> establishes a new connection to the host system <b>520</b>, when a new user of a device logs into the host system <b>520</b>, when a designated user triggers a parental control setting check, when a predetermined amount of time has passed since the last time a parental control setting check was performed, or when a predetermined number of logons has occurred since the last time a parental control setting check was performed. Alternatively or additionally, whether a check for parental control settings is appropriate and/or useful and should be triggered may be determined by the local proxy <b>513</b>, the host system <b>520</b>, or another computing device. For example, decision logic that identifies the conditions under which parental control information should be checked may be executed by the local proxy <b>513</b>.</p>
+<p id="p-0083" num="0082">The local proxy <b>513</b> accesses parental control settings stored at the local proxy <b>513</b> (step <b>535</b>). In some cases, the parental control settings may be stored on a storage device that is peripheral to the local proxy <b>513</b>, such as a peripheral storage device (including a drive, a microdrive, a compact disk (CD), a CD-recordable (CD-R), a CD-rewriteable (CD-RW), flash memory, or a solid-state floppy disk card (SSFDC)).</p>
+<p id="p-0084" num="0083">The local proxy <b>513</b> sends the accessed parental control settings to the host system <b>520</b> (step <b>540</b>). The parental control settings for one or more screen names associated with the local proxy <b>513</b> may be sent. In addition or as an alternative to the parental control settings themselves, some implementations may send a checksum that is a number representing the parental control settings transferred from the local proxy <b>513</b> to the host system <b>520</b>.</p>
+<p id="p-0085" num="0084">The host system <b>520</b> receives the parental control settings (step <b>545</b>) and accesses parental control settings stored at the host system <b>520</b> and associated with the local proxy <b>513</b> (step <b>550</b>). The host system <b>520</b> compares the parental control settings stored at the host system <b>515</b> with the parental control settings received from the local proxy <b>513</b> (step <b>560</b>). To do so, the host system <b>520</b> may transform the parental control settings into a checksum using the same procedure used by the local proxy <b>513</b> to compute the checksum. When the parental control settings (either the parental control settings themselves or the computed checksums that represent the parental control settings on the local proxy <b>513</b> and host system <b>520</b> respectively) match, the procedure <b>500</b> ends (step <b>565</b>).</p>
+<p id="p-0086" num="0085">Alternatively, when the parental control settings sent by the local proxy <b>513</b> and accessed by the host system <b>520</b> do not match, the host system <b>520</b> sends the correct parental control settings to the local proxy <b>513</b> (step <b>570</b>). The local proxy <b>513</b> receives the parental control settings (step <b>575</b>), stores the parental control settings (step <b>580</b>), and sends an acknowledgement message to the host system <b>520</b> (step <b>585</b>). The host system <b>520</b> receives the acknowledgement message (step <b>590</b>).</p>
+<p id="p-0087" num="0086">Additionally or alternatively, when the parental control settings sent by the local proxy <b>513</b> and accessed by the host system <b>520</b> do not match, the host system <b>520</b> may take other appropriate action (step <b>595</b>). Such action may include, for example, notifying the master account holder and terminating access to the host system, as described below with respect to <figref idref="DRAWINGS">FIG. 6</figref>.</p>
+<p id="p-0088" num="0087">Referring also to <figref idref="DRAWINGS">FIG. 6</figref>, a process <b>600</b> to mirror parental control settings from a host system <b>520</b> may begin when the host system <b>520</b> receives parental control settings (step <b>645</b>). For example, the local proxy <b>513</b> may submit parental control settings in the manner described previously with respect to item <b>540</b> in <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0089" num="0088">The host system <b>520</b> accesses parental control settings (step <b>650</b>) and compares the parental control settings received from the local proxy <b>513</b> to the parental control settings accessed on the host system <b>520</b> (step <b>660</b>). For example, host system <b>520</b> may access parental control settings in the manner described previously with respect to step <b>550</b> in <figref idref="DRAWINGS">FIG. 5</figref> and compare the parental control settings in the manner described previously with respect to item <b>560</b> in <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0090" num="0089">When the parental control settings compared do not match, the host system <b>520</b> sends parental control settings accessed on the host system <b>520</b> to the local proxy <b>513</b> (step <b>670</b>), such as in the manner described previously with respect to item <b>570</b> in <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0091" num="0090">The host system <b>520</b> also sends one or more notification messages (step <b>674</b>). For example, the host system <b>520</b> may send a notification message to the holder of the master account that is associated with the local proxy <b>513</b>, to a home network manager that is associated with the local proxy <b>513</b>, and/or (when the trigger is associated with one or more identities or devices (e.g., the log on of a new device or new user) the screen name associated with the device. The notification message may constitute an email message, a voice mail message when digital voicemail is integrated into the home network system, an instant message (IM), or another type of alert. The notification message also may be sent to an address provided by the holder of the master account (e.g., a parent's email address at work).</p>
+<p id="p-0092" num="0091">Some implementations may only send one or more notifications when a particular number of changes to parental control settings have occurred or when the frequency of changes to parental control settings has reached a predetermined threshold level.</p>
+<p id="p-0093" num="0092">In some implementations, the host system <b>520</b> may terminate access (step <b>678</b>). For instance, the user session or proxy connection may be terminated when the parental control settings do not match or when the frequency or number of changes to parental control settings has reached a predetermined threshold level.</p>
+<p id="p-0094" num="0093">When the parental control settings received and accessed by the host system <b>520</b> match, the procedure <b>600</b> ends (step <b>680</b>).</p>
+<p id="p-0095" num="0094">Alternatively or additionally, the parental control settings may be mirrored between a local proxy and a removable storage device (such as a drive, a microdrive, a compact disc (&#x201c;CD&#x201d;), a CD-recordable disk (&#x201c;CD-R&#x201d;), a CD-rewriteable disk (&#x201c;CD-RW&#x201d;), a flash memory, or solid-state floppy disk cards) using any storage media (including magnetic, optical, or solid state storage media).</p>
+<p id="p-0096" num="0095">Referring to <figref idref="DRAWINGS">FIG. 7</figref>, a procedure <b>700</b> may be used to identify a device used in a home network. A device <b>710</b> may be a client device (such as a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, and a PDA <b>112</b><i>e</i>, described previously with respect to <figref idref="DRAWINGS">FIG. 1</figref> or client device <b>310</b> described previously with respect to <figref idref="DRAWINGS">FIG. 3</figref>) or a non-client device (such as an intelligent home appliance <b>112</b><i>f</i>, as described with respect to <figref idref="DRAWINGS">FIG. 1</figref>). Device <b>710</b> communicates to a local proxy <b>713</b>, such as local proxy <b>113</b> in <figref idref="DRAWINGS">FIG. 1</figref>, protocol server module <b>213</b> in <figref idref="DRAWINGS">FIG. 2</figref>, local proxy <b>313</b> in <figref idref="DRAWINGS">FIG. 3</figref>, local proxy <b>413</b> in <figref idref="DRAWINGS">FIG. 4</figref>, or local proxy <b>513</b> in <figref idref="DRAWINGS">FIG. 5</figref>. The local proxy <b>713</b> communicates with the host system <b>720</b>, such as host system <b>120</b> in <figref idref="DRAWINGS">FIG. 1</figref>, host system <b>220</b> in <figref idref="DRAWINGS">FIG. 2</figref>, host system <b>320</b> in <figref idref="DRAWINGS">FIG. 3</figref>, host system <b>420</b> in <figref idref="DRAWINGS">FIG. 4</figref>, or host system <b>520</b> in <figref idref="DRAWINGS">FIG. 5</figref> described previously.</p>
+<p id="p-0097" num="0096">The procedure <b>700</b> begins when the device <b>710</b> submits a request for access to the host system <b>720</b> (step <b>730</b><i>c</i>). The local proxy <b>713</b> receives the request for access and forwards the request to the host system <b>720</b> (step <b>730</b><i>p</i>).</p>
+<p id="p-0098" num="0097">The host system <b>720</b> receives the request for access (step <b>730</b><i>h</i>) and requests authentication information (step <b>734</b><i>h</i>). The local proxy <b>713</b> receives the request for authentication information and forwards the request to the device <b>710</b> (step <b>734</b><i>p</i>).</p>
+<p id="p-0099" num="0098">The device <b>710</b> receives the request for authentication information (step <b>734</b><i>c</i>) and submits the authentication information (step <b>738</b><i>c</i>). For example, the device <b>710</b> may submit a screen name and password or other authenticating information. The local proxy <b>713</b> receives the authentication information and forwards the authentication information to the host system <b>720</b> (step <b>738</b><i>p</i>).</p>
+<p id="p-0100" num="0099">The host system <b>720</b> receives the authentication information (step <b>738</b><i>h</i>) and authenticates the device <b>710</b> (step <b>740</b><i>h</i>). When the host system <b>720</b> determines that the device <b>710</b> or the identity associated with the device <b>710</b> is not authenticated, the host system may take any of several actions, including terminating the session immediately, sending a message to the device <b>710</b>, or sending a message to an email address that is associated with the parental control information. Some implementations may, for example, send an email message to a master or supervisory account associated with the local proxy <b>713</b>.</p>
+<p id="p-0101" num="0100">When the host system <b>720</b> determines that the device <b>710</b> or the identity associated with the device <b>710</b> is authenticated, the host system <b>720</b> provides access to the device <b>710</b> based on parental control information associated with the identity using the device <b>710</b> (step <b>758</b><i>h</i>). The local proxy <b>713</b> provides access to device <b>710</b> (step <b>758</b><i>p</i>), which receives access to the host system <b>720</b> (step <b>758</b><i>c</i>).</p>
+<p id="p-0102" num="0101">The device <b>710</b> submits a request to access a particular service associated with the host system <b>720</b> or a particular address accessible to the host system <b>720</b>, such as a publicly-accessible IP address (step <b>760</b><i>c</i>).</p>
+<p id="p-0103" num="0102">The local proxy <b>713</b> receives the request to access the service or IP address (step <b>760</b><i>p</i>) and inserts the device information associated with the device <b>710</b> into the request (step <b>764</b><i>p</i>). For example, the local proxy <b>713</b> may look-up device information stored on the local proxy <b>713</b> (such as the device information described previously with respect to item <b>113</b><i>c </i>in <figref idref="DRAWINGS">FIG. 1</figref>) and insert the device information or a subset of the device information to the request received in step <b>760</b><i>p</i>. The local proxy <b>713</b> sends the request with the inserted device information to the host system <b>720</b> (step <b>768</b><i>p</i>).</p>
+<p id="p-0104" num="0103">The host system <b>720</b> receives the request with the device information (step <b>770</b><i>h</i>) and applies device controls based on the device information received (step <b>774</b><i>h</i>). For example, the host system <b>720</b> may provide access to a subset of services (such as system functions, features or content) accessible to only particular types of platforms or operating environments. As one example, access to particular entertainment services (such as games) may only be available to particular classes of devices (such as gaming devices and personal computers). To provide access to a subset of services, the host system <b>720</b> may look-up on an access control list a list of services that are associated with the device class indicated by the received device information. The host system <b>720</b> then may provide access only to the identified services, as depicted in the table below.</p>
+<p id="p-0105" num="0104">
+<tables id="TABLE-US-00003" num="00003">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="1" colwidth="84pt" align="left"/>
+<colspec colname="2" colwidth="63pt" align="center"/>
+<colspec colname="3" colwidth="35pt" align="center"/>
+<colspec colname="4" colwidth="35pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>Not</entry>
+</row>
+<row>
+<entry>Service</entry>
+<entry>Device Class</entry>
+<entry>Allowed</entry>
+<entry>Allowed</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>Game Service</entry>
+<entry>Gaming Device</entry>
+<entry>X</entry>
+<entry/>
+</row>
+<row>
+<entry>Game Service</entry>
+<entry>Personal Computer</entry>
+<entry>X</entry>
+</row>
+<row>
+<entry>Game Service</entry>
+<entry>PDA</entry>
+<entry/>
+<entry>X</entry>
+</row>
+<row>
+<entry>Financial Planning Service</entry>
+<entry>Gaming Device</entry>
+<entry/>
+<entry>X</entry>
+</row>
+<row>
+<entry>Financial Planning Service</entry>
+<entry>Personal Computer</entry>
+<entry>X</entry>
+</row>
+<row>
+<entry>Financial Planning Service</entry>
+<entry>PDA</entry>
+<entry/>
+<entry>X</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0106" num="0105">The table above illustrates that a gaming device is allowed only to access the game service, a personal computer is allowed to access the game service and the financial planning service, and a PDA is not allowed access to the game service or the financial planning service. Some implementations may use an access control list by a device type (e.g., client device or non-client device), a platform, an operating environment, or another manner used to classify devices. In some cases, access control lists may be provided for particular devices. For example, an access control list may be based on a unique identifier for the device on the network, such as a MAC address or an IP address.</p>
+<p id="p-0107" num="0106">Alternatively, the host system <b>720</b> may provide a set of common services to all devices and provide access to additional services to particular types of devices. Additionally or alternatively, access control for a device may be based on a parental control level associated with the device in the same or a similar manner to the parental control levels associated with an identity.</p>
+<p id="p-0108" num="0107">Some implementations may use different data management techniques. Some implementations may include the services that a particular device class, device type, platform, operating environment, or individual device may not access (e.g., a block list) or may access (e.g., a white list).</p>
+<p id="p-0109" num="0108">The host system <b>720</b> also may provide certain host-maintained preferences, such as personal identification settings, personal web pages, account information, wallet information, and/or financial information only to devices that are capable of receiving that information. To do so, the host system <b>720</b> may look-up a list of information that is accessible by the type of device indicated by the received device information and provide access to the appropriate information based on the device type.</p>
+<p id="p-0110" num="0109">When the request by the device <b>710</b> is to retrieve content, the steps <b>778</b><i>h </i>to <b>780</b><i>c </i>are performed. The host system <b>720</b> retrieves the content as permitted by the device controls application (and permitted by security constraints enforced by the host system <b>720</b>) (step <b>778</b><i>h</i>). For example, the host system <b>720</b> may look up the address of the content requested to determine whether the device is permitted to access the content in a manner similar to that described above with respect to step <b>774</b><i>h</i>. That is, when the application of device controls in step <b>774</b><i>h </i>allows the device to access the address requested, the host system <b>720</b> retrieves the content associated with the address requested (e.g., the World Wide Web page associated with a particular Internet address). When the application of device controls in step <b>774</b><i>h </i>does not allow the device <b>710</b> to access the requested address, step <b>778</b><i>h </i>is not performed.</p>
+<p id="p-0111" num="0110">As permitted by the application of device controls, the host system <b>720</b> sends the content to the device <b>710</b> (step <b>780</b><i>h</i>). Alternatively, the host system may send a message that explains that the requested content is not accessible by the device. When the device <b>710</b> is permitted to access the requested address and/or the content associated with the requested address, the content (or message) is sent to the local proxy <b>713</b> (step <b>780</b><i>h</i>), which receives and forwards the content (or message) to device <b>710</b> (step <b>780</b><i>p</i>). The device <b>710</b> receives the content (or message) (step <b>780</b><i>c</i>).</p>
+<p id="p-0112" num="0111">In some cases, the device <b>710</b> itself may not need to be authenticated, such as when the local proxy <b>713</b> has established a trusted connection with host system <b>720</b> and the device uses the established, trusted connection. In such a case, steps <b>730</b><i>c</i>-<b>758</b><i>c </i>need not be performed.</p>
+<p id="p-0113" num="0112">Additionally or alternatively, device information may be appended to communications sent from or through the local proxy <b>713</b> during the establishment of a connection and/or authentication of the device <b>710</b>, such as in steps <b>730</b><i>p </i>and <b>738</b><i>p</i>. Appending device information to such communications may be particularly beneficial when a host system <b>720</b> presents alternative information or features based on a specific communication platform or environment during or after authentication and before a specific access request has been received from the device.</p>
+<p id="p-0114" num="0113">In some implementations, the local proxy <b>713</b> may apply device controls, such as the device controls described with respect to steps <b>774</b><i>h </i>and <b>778</b><i>h</i>, to a received request, and may send to the host only requests to access permitted content or services.</p>
+<p id="p-0115" num="0114">Referring also to <figref idref="DRAWINGS">FIG. 8</figref>, a process <b>800</b> to enable parental controls and device identification for a device used in a home network may begin when the local proxy, such as local proxy <b>113</b> in <figref idref="DRAWINGS">FIG. 1</figref>, protocol server module <b>213</b> in <figref idref="DRAWINGS">FIG. 2</figref>, local proxy <b>313</b> in <figref idref="DRAWINGS">FIG. 3</figref>, local proxy <b>413</b> in <figref idref="DRAWINGS">FIG. 4</figref>, local proxy <b>513</b> in <figref idref="DRAWINGS">FIG. 5</figref> or local proxy <b>713</b> in <figref idref="DRAWINGS">FIG. 7</figref>, receives a request to access a particular address from a device, such as a client device (such as a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, and a PDA <b>112</b><i>e </i>as described previously with respect to <figref idref="DRAWINGS">FIG. 1</figref>, client device <b>310</b> in <figref idref="DRAWINGS">FIG. 3</figref>, or client device <b>410</b> in <figref idref="DRAWINGS">FIG. 4</figref>) or a non-client device (such as an intelligent home appliance <b>112</b><i>f </i>as described previously with respect to <figref idref="DRAWINGS">FIG. 1</figref> or device <b>710</b> in <figref idref="DRAWINGS">FIG. 7</figref>) (step <b>860</b>). The local proxy may receive the request in the same manner as or in a manner similar to that described previously with respect to item <b>460</b><i>p </i>in <figref idref="DRAWINGS">FIG. 4</figref> and/or item <b>760</b><i>p </i>in <figref idref="DRAWINGS">FIG. 7</figref>.</p>
+<p id="p-0116" num="0115">The local proxy accesses device information associated with the device that sent the received request (step <b>865</b>). The local proxy may, for example, access device information stored in a configuration table or list on the local proxy, a peripheral storage device associated with the local proxy, or another computing device accessible to the local proxy. The device information accessed may include a device identifier and device information associated with the device identifier, such as the type and/or class of device, the type of platform, or the operating system type and/or version, as described with respect to device information <b>113</b><i>c </i>in <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0117" num="0116">The local proxy inserts device information into the received request, appends the device information to the received request, or otherwise associates the device information with the received request (step <b>870</b>). The device information may be the same as or based on the device information accessed. The device information inserted may be a subset of the device information accessed. For example, only the type of device and the platform may be inserted. The same device information values may be inserted as accessed, or the device information values may be transformed prior to insertion. For example, a configuration table stored on the local proxy may store the device type as &#x201c;client&#x201d; or &#x201c;non-client&#x201d; and the device type sent may be represented as &#x201c;1&#x201d; or &#x201c;0&#x201d;. A translation table (e.g., stored on the local proxy) may be used to transform the device information values.</p>
+<p id="p-0118" num="0117">The local proxy may determine whether to apply parental controls (step <b>875</b>). For example, the host system may apply parental controls only when the client is a client device and may not apply parental controls when the device is a non-client device. The host system may apply different levels of parental controls (e.g., child, young teen, mature teen, and adult) based on the identity of the user using the device, a default level of parental control for a particular device, and/or a default level of parental control for all devices or other device types (e.g., client or non-client). Alternatively or additionally, the host system may apply parental controls when the client system is not included on a list or table that identifies the user identities or devices to which parental controls are not applied. Other data management techniques may be used, such as using a block list that identifies particular addresses that may not be accessed by a particular parental control level. Parental control information (such as whether to apply parental controls to a particular device and the association of a particular level parental control information with a particular device) that is used in determining whether to apply parental controls and for other uses may be stored on the local proxy, in a manner similar to other parental control information or device information as described with respect to parental control information <b>113</b><i>a </i>and device information <b>113</b><i>c </i>in <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0119" num="0118">When parental controls are applied, the local proxy accesses parental control information (step <b>880</b>). The local proxy may access parental control information differently based on whether the device is a client device or a non-client device. For example, the local proxy may access parental control information associated with the identity using the client device, such as in a manner similar to the manner described with respect to item <b>444</b><i>h </i>in <figref idref="DRAWINGS">FIG. 4</figref>. The local proxy may, for example, access parental control information associated with a non-client device by accessing a configuration table or list stored on the local proxy that stores a default parental control level for each device.</p>
+<p id="p-0120" num="0119">The local proxy inserts parental control information into the received request (step <b>885</b>). The local proxy may insert the parental control information accessed or may transform the parental control information and insert the transformed parental control information.</p>
+<p id="p-0121" num="0120">The local proxy sends the request to the host system (step <b>890</b>). This step is accomplished in the same or similar manner described with respect to item <b>468</b><i>p </i>in <figref idref="DRAWINGS">FIG. 4</figref> or item <b>768</b><i>p </i>in <figref idref="DRAWINGS">FIG. 7</figref>.</p>
+<p id="p-0122" num="0121"><figref idref="DRAWINGS">FIG. 9</figref> illustrates a communications system capable of establishing parental controls for a device used in a home network using a host system that applies parental controls and does not provide online access to the home network and/or its user. A home networking system <b>900</b> includes a client system <b>910</b> that has a client device <b>912</b> and a local proxy <b>913</b>, a host system <b>920</b> that has a host login server <b>921</b> and a parental control processor <b>923</b>, an online access provider <b>931</b>, and a network <b>936</b>.</p>
+<p id="p-0123" num="0122">The local proxy <b>913</b>, such as local proxy <b>113</b> in <figref idref="DRAWINGS">FIG. 1</figref>, protocol server module <b>213</b> in <figref idref="DRAWINGS">FIG. 2</figref>, local proxy <b>313</b> in <figref idref="DRAWINGS">FIG. 3</figref>, local proxy <b>413</b> in <figref idref="DRAWINGS">FIG. 4</figref>, local proxy <b>513</b> in <figref idref="DRAWINGS">FIG. 5</figref>, or local proxy <b>713</b> in <figref idref="DRAWINGS">FIG. 7</figref>, stores parental control information, such as parental control information <b>113</b><i>a </i>described above with respect to <figref idref="DRAWINGS">FIG. 1</figref>. The local proxy <b>913</b> may maintain a persistent connection to online access provider <b>931</b>. The persistent connection may be a broadband connection using, for example, a cable modem, such as cable modem <b>119</b><i>c </i>as described with respect to <figref idref="DRAWINGS">FIG. 1</figref>, or a DSL modem, such as DSL modem <b>119</b><i>d </i>as described with respect to <figref idref="DRAWINGS">FIG. 1</figref>. In some cases, the local proxy <b>913</b> may apply parental controls to access requests from client device <b>912</b>. The local proxy may operate in a manner the same as or similar to the manner described with respect to <figref idref="DRAWINGS">FIGS. 1</figref>, <b>3</b>, and <b>4</b>.</p>
+<p id="p-0124" num="0123">The online access provider <b>931</b> provides client system <b>910</b> with access to network <b>936</b>. The online access provider <b>931</b> may be a host system similar to host system <b>120</b> of <figref idref="DRAWINGS">FIG. 1</figref>, host system <b>220</b> of <figref idref="DRAWINGS">FIG. 2</figref>, host system <b>320</b> of <figref idref="DRAWINGS">FIG. 3</figref>, or host system <b>420</b> in <figref idref="DRAWINGS">FIG. 4</figref>. However, the online access provider <b>931</b> leverages access controls from other systems, such as parental controls provided by host system <b>920</b>, for communications received from client system <b>910</b>. The online access provider <b>931</b> routes communications to which parental controls need to be applied to host system <b>920</b> for the application of parental controls.</p>
+<p id="p-0125" num="0124">The online access provider <b>931</b> may retrieve content from network <b>936</b> as permitted by the application of parental controls, and may provide the content to the client system <b>910</b>. In some implementations, the host system may retrieve the content from the network <b>936</b> as permitted by the application of parental controls, and may provide the content to the online access provider <b>931</b> for forwarding the content on to client system <b>910</b>.</p>
+<p id="p-0126" num="0125">The network <b>936</b> may be the same as or similar to network <b>130</b> in <figref idref="DRAWINGS">FIG. 1</figref> or network <b>230</b> in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0127" num="0126">Some implementations may use a transient connection (such as a narrowband or dial-up connection) from local proxy <b>913</b> to online access provider <b>931</b>. In such a case, the local proxy <b>913</b> and online access provider <b>931</b> may exchange communications that include authentication messages used to establish a trusted connection, for example, such as described above with respect steps <b>430</b><i>c</i>-<b>440</b><i>h </i>in <figref idref="DRAWINGS">FIG. 4</figref> and steps <b>730</b><i>c</i>-<b>740</b><i>h </i>in <figref idref="DRAWINGS">FIG. 7</figref>.</p>
+<p id="p-0128" num="0127">In some implementations, the online access provider may establish a persistent connection with host system <b>920</b>. A persistent connection may be particularly beneficial when the number of communications messages routed between the online access provider and the host system <b>920</b> is greater than the capacity afforded by a transient connection that requires authentication to be performed when a connection is established. A persistent connection may improve the performance of the application of parental controls by the host system <b>920</b> to communications that use access provided by the online access provider <b>931</b>.</p>
+<p id="p-0129" num="0128">The host system <b>920</b> and the online access provider <b>931</b> may be the same or different legal entities. Generally, the host system <b>920</b> and the online access provider <b>931</b> are different legal entities.</p>
+<p id="p-0130" num="0129">Referring to <figref idref="DRAWINGS">FIG. 10</figref>, a process <b>1000</b> may establish parental controls for a device used in a home network using a host system that applies parental controls and does not provide online access to the home network and/or its user.</p>
+<p id="p-0131" num="0130">The process <b>1000</b> begins when a local proxy <b>1013</b>, such as local proxy <b>913</b> described with respect to <figref idref="DRAWINGS">FIG. 9</figref>, receives a request to access a particular address from a client device, such as a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux&#x2122;-based OS <b>112</b><i>b</i>, a Macintosh&#x2122; personal computer <b>112</b><i>c</i>, and a PDA <b>112</b><i>e </i>described previously with respect to <figref idref="DRAWINGS">FIG. 1</figref>, client device <b>310</b> in <figref idref="DRAWINGS">FIG. 3</figref>, client device <b>410</b> in <figref idref="DRAWINGS">FIG. 4</figref>, or client device <b>912</b> in <figref idref="DRAWINGS">FIG. 9</figref>, (step <b>1035</b>). The local proxy <b>1013</b> may access parental control information for the identity associated with client device <b>1012</b> (step <b>1040</b>) and insert parental control information into the access request in a manner like or similar to the manner described with respect to <figref idref="DRAWINGS">FIG. 1</figref> and step <b>464</b><i>p </i>in <figref idref="DRAWINGS">FIG. 4</figref> (step <b>1045</b>). The local proxy <b>1013</b> sends the access request to online access provider <b>1031</b> (step <b>1050</b>).</p>
+<p id="p-0132" num="0131">The online access provider <b>1031</b> receives the access request (step <b>1055</b>) and establishes a connection with the host login server, such as host login server <b>921</b> in <figref idref="DRAWINGS">FIG. 9</figref>, or other host system <b>1020</b> device used to login users (step <b>1060</b>). The online access provider <b>1031</b> and the host login server <b>1021</b> exchange communications to authenticate the online access provider <b>1031</b> in a manner like or similar to steps <b>430</b><i>c</i>-<b>440</b><i>h </i>in <figref idref="DRAWINGS">FIG. 4</figref> or steps <b>730</b><i>c</i>-<b>740</b><i>h </i>in <figref idref="DRAWINGS">FIG. 7</figref> (step <b>1065</b>). The online access provider <b>1031</b> sends the access request received from the local proxy <b>1013</b> to the parental control processor, such as parental control processor <b>923</b> in <figref idref="DRAWINGS">FIG. 9</figref>, or other host system <b>1020</b> device used for applying parental controls (step <b>1070</b>). The parental control processor receives the request (step <b>1075</b>) and applies parental controls to the request (step <b>1080</b>). This may be accomplished, for example, in a manner the same as or similar to steps <b>474</b><i>h</i>-<b>480</b><i>h </i>in <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+<p id="p-0133" num="0132">The parental control processor <b>1023</b> sends to online access provider <b>1031</b> a message that indicates whether or not the access request is permitted based on the application of parental controls (step <b>1085</b>).</p>
+<p id="p-0134" num="0133">The online access provider <b>1031</b> receives the message (step <b>1087</b>). When access is permitted, the online access provider <b>1031</b> retrieves the content from network, such as network <b>936</b> in <figref idref="DRAWINGS">FIG. 9</figref>, for example, in a manner the same as or similar to the manner described with respect to step <b>478</b><i>h </i>in <figref idref="DRAWINGS">FIG. 4</figref> (step <b>1090</b>), and provides the retrieved content to the local proxy <b>1013</b> in a manner like or similar to the manner described with respect to step <b>480</b><i>h </i>in <figref idref="DRAWINGS">FIG. 4</figref> (step <b>1094</b>). When access is not permitted, the online access provider <b>1031</b> may send a message to local proxy <b>1013</b> indicating that access is not permitted (not shown).</p>
+<p id="p-0135" num="0134">The local proxy <b>1013</b> receives the retrieved content or message from the online access provider <b>1031</b> and forwards the content or message to the client device that requested access to the content (step <b>1098</b>). This may be accomplished, for example, in the manner described with respect to step <b>480</b><i>p </i>in <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+<p id="p-0136" num="0135">The client device receives the content or message from the local proxy <b>1013</b> (not shown). This may be accomplished, for example, in the manner described with respect to step <b>480</b><i>c </i>in <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+<p id="p-0137" num="0136">Although <figref idref="DRAWINGS">FIG. 10</figref> describes applying parental controls to a request to access a particular address, other implementations may apply parental controls to other access requests, such as a request to access one or more particular services provided by the online access provider <b>1031</b>, information accessible on the online access provider <b>1031</b>, or information or services otherwise accessible using online access provider <b>1031</b>. Some implementations may apply parental controls to requests from a non-client device.</p>
+<p id="p-0138" num="0137">In one implementation, parental control information may be stored on the local user device and a copy of the parental control information may be stored on a remote device, such as a device at a host system.</p>
+<p id="p-0139" num="0138">Referring to <figref idref="DRAWINGS">FIG. 11</figref>, a communication system <b>1100</b> includes multiple home-networked devices <b>112</b> (&#x201c;devices&#x201d;). The devices <b>112</b> may be connected to each other and to a host system <b>120</b> through a communication device <b>119</b> over communication links <b>130</b>. In this implementation, parental control information <b>1105</b> is stored within the devices <b>112</b>. Information <b>1110</b> that is related to the parental control information <b>105</b> stored within the devices <b>112</b> also is stored within the host system <b>120</b>. The information <b>1110</b> may include, for example, a checksum computed based on the parental control information <b>1105</b> and/or a copy of the parental control information <b>1105</b>. When the information <b>1110</b> is a copy, the information may be a mirrored copy that is updated in response to authorized changes to the information <b>1105</b>.</p>
+<p id="p-0140" num="0139"><figref idref="DRAWINGS">FIG. 11</figref> shows several implementations and possible combinations of devices and systems used within the home networking system <b>1100</b>. Examples of devices <b>112</b> may include, but are not limited to, devices similar to those illustrated and described above with respect to <figref idref="DRAWINGS">FIG. 1</figref>, such as a personal computer with a Windows&#x2122; OS <b>112</b><i>a</i>, a personal computer with a Linux-based OS <b>112</b><i>b</i>, a Macintosh personal computer <b>112</b><i>c</i>, a TV set-top box <b>112</b><i>d</i>, aPDA <b>112</b><i>e</i>, and ahome appliance <b>112</b><i>f</i>. The devices <b>112</b> are connected through a network to the host system <b>120</b>. The parental control information <b>1105</b> stored within the exemplary devices <b>112</b> may include the same parental control information on each device or may include different parental control information on each device. That is, the parental control information that is stored on the user device and the information stored on the host system <b>120</b> (e.g., a checksum and/or the copy of the parental control information that is stored on the remote device) may include different parental control levels that are associated with a particular screen name (or otherwise), as described above with respect to the table associated with <figref idref="DRAWINGS">FIG. 4</figref>. Similarly, the parental control information may include a range of addresses arranged in a table associated with a particular parental control level for use in determining whether a particular address may be accessed, such as described above with respect to <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+<p id="p-0141" num="0140">In one implementation, the parental control information may be received and stored at the devices <b>112</b> from the host system <b>120</b> when the devices <b>112</b> connect to the host system <b>120</b>. The parental control information may be received and stored at the devices from the host system <b>120</b> each time the devices <b>112</b> connect to the host system <b>120</b>.</p>
+<p id="p-0142" num="0141">Examples of the communication device <b>119</b> may include (but are not limited to) communication devices <b>119</b> similar to those illustrated and described above with respect to <figref idref="DRAWINGS">FIG. 1</figref>, such as a satellite modem <b>119</b><i>a</i>, an analog modem <b>119</b><i>b</i>, a cable modem <b>119</b><i>c</i>, and a DSL modem <b>119</b><i>d</i>. Similarly, communication links <b>130</b> may include various types of communication delivery systems that correspond to the type of communication device <b>119</b> being used, such as those described and illustrated above with respect to <figref idref="DRAWINGS">FIG. 1</figref>, which include a satellite dish <b>130</b><i>a </i>and a satellite <b>130</b><i>b</i>, POTS. <b>130</b><i>c</i>, CMTS <b>130</b><i>d</i>, DSLAM <b>130</b><i>e</i>, and ATM network <b>130</b><i>f. </i></p>
+<p id="p-0143" num="0142">In this implementation, the devices <b>112</b> may function to filter communications before the communications (e.g., a request for a destination, such as a website) are sent to the host system <b>120</b>. For instance, the devices <b>112</b> may apply the parental control information <b>1105</b> to communications that are being sent to the host system <b>120</b>. Parental control information <b>1105</b> and the copy of the parental control information <b>1110</b> may include information that is similar to parental control information <b>113</b><i>a</i>, access control list information <b>113</b><i>b</i>, and device information <b>113</b><i>c</i>, as illustrated and described above with respect to <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0144" num="0143">In another exemplary implementation, the devices <b>112</b> may function to filter communications after the communications (e.g., a request for a destination, such as a website) are sent to the host system <b>120</b>, but before any response to the communications (e.g., a response to the request for the destination) are perceived by the devices <b>112</b>.</p>
+<p id="p-0145" num="0144">In one implementation, a host system <b>120</b> may include information related to the parental control information <b>1110</b>, such as a copy of the parental control information <b>1110</b> which mirrors the parental control information <b>1105</b> that is stored within the devices <b>112</b>. The copy of the parental control information <b>1110</b> stored within the host system <b>120</b> may be used to determine whether the parental control information <b>1105</b> stored within the devices <b>112</b> has been altered or changed without authorization. In this manner, the integrity of the parental control information <b>1105</b> is maintained by using the copy of the parental control information <b>1110</b> stored within the host system <b>120</b> to ensure that the locally-stored parental control information <b>1105</b> is not tampered with or otherwise compromised. In one implementation, the copy of the parental control information <b>1110</b> may be used to determine whether the parental control information <b>1105</b> has changed by comparing a copy of the parental control information <b>1110</b> stored on the host system <b>120</b> with the parental control information <b>1105</b> stored on the devices <b>112</b>. If it is determined that the parental control information <b>1105</b> has been changed without authorization, then the copy of the parental control information <b>1110</b> stored on the host system <b>120</b> is used to update the parental control information <b>1105</b> stored on the user device to ensure that inappropriate access requests from the devices <b>112</b> to an authorized destination are not allowed.</p>
+<p id="p-0146" num="0145">In another exemplary implementation, a host system <b>120</b> may include information related to the parental control information <b>1110</b>, such as a checksum computed from the parental control information <b>1105</b> stored on the devices <b>112</b>. The checksum of the parental control information stored within the host system <b>120</b> may be used to determine whether the parental control information <b>1105</b> stored within the devices <b>112</b> has been altered or changed without authorization. In this manner, the integrity of the parental control information <b>1105</b> is maintained by using the checksum stored within the host system <b>120</b> to ensure that the locally-stored parental control information <b>1105</b> is not tampered with or otherwise compromised. The checksum may be used to determine whether the parental control information <b>1105</b> has changed by comparing the checksums stored on the host system <b>120</b> with a checksum stored on the devices <b>112</b>. If it is determined that the parental control information <b>1105</b> has been changed without authorization, then a user may be alerted of the compromise and instructed to update the parental control information stored on the devices <b>112</b>.</p>
+<p id="p-0147" num="0146">In one implementation, both a checksum and a copy of the parental control information are stored on the host system <b>120</b>. The checksum is used to determine whether the parental control information <b>1105</b> has been changed without authorization. If the parental control information <b>1105</b> has been changed without authorization, the copy of the parental control information stored on the host system or elsewhere is used to update the parental control information <b>1105</b>.</p>
+<p id="p-0148" num="0147">Referring to <figref idref="DRAWINGS">FIG. 12</figref>, a process <b>1200</b> illustrates applying the parental control information stored on the local user device. Process <b>1200</b> includes storing parental control information on a user device (step <b>1205</b>) and storing information related to the parental control information on a remote device (step <b>1210</b>). As discussed above with respect to <figref idref="DRAWINGS">FIG. 11</figref>, the information related to the parental control information may include, for example, a checksum computed based on the locally-stored parental control information and/or a copy of the parental control information. The remote device may include a device that is part of a host system, such as, the host system <b>120</b> described above with respect to <figref idref="DRAWINGS">FIGS. 1 and 11</figref>.</p>
+<p id="p-0149" num="0148">When a request is received from the user device to access a destination over a communications network (step <b>1215</b>), the parental control information stored on the user device is used to determine whether to grant the request from the user device (step <b>1220</b>). If it is determined that the request from the device should be allowed (step <b>1225</b>), then the user device is allowed access to the destination (step <b>1230</b>). If it is determined that the request from the device should not be allowed (step <b>1225</b>), then the user device is denied access to the destination (step <b>1235</b>).</p>
+<p id="p-0150" num="0149">Referring to <figref idref="DRAWINGS">FIG. 13</figref>, in one implementation, process <b>1300</b> illustrates using the information related to the parental control information stored on the remote device to determine whether the parental control information stored on the user device has changed. To determine whether the parental control information stored on the user device has changed, the information stored on the remote device is compared to the parental control information stored on the user device (step <b>1310</b>). When the parental control information stored on the user device does not match the information stored on the remote device (step <b>1315</b>), the parental control information stored on the user device is updated (step <b>1320</b>). A message may be sent to an identity (e.g., a master user or a master account holder) when the information relating to the parental control information stored on the user device does not match the information stored on the remote device. The information stored on the remote device may be used at different times to check the integrity of the parental control information stored on the user device. For example, a comparison may be made periodically, each time a request that has been determined to be allowed is made, or on some other frequency or basis such as the occurrence of an event.</p>
+<p id="p-0151" num="0150">Events that may trigger a comparison of the parental control information may include, for example, when the user device establishes a new connection to the host system, when a new user of a device logs into the host system, when a designated user triggers a parental control setting check, when a predetermined amount of time has passed since the last time a parental control setting check was performed, or when a predetermined number of logons has occurred since the last time a parental control setting check was performed. Alternatively or additionally, design logic that identifies the conditions under which parental control information should be checked may be used to determine when the comparison of the parental control information should take place.</p>
+<p id="p-0152" num="0151">Although <figref idref="DRAWINGS">FIGS. 1-13</figref> illustrate system communication techniques to be used to communicate between client systems and host systems and <figref idref="DRAWINGS">FIGS. 1-13</figref> illustrate particular functional implementations, the benefits of such communication techniques are not limited to systems communicating in a client and host relationship, such as an Internet access or service provider or other online service provider, and are equally applicable to other contexts. For example, the benefits are applicable to any desired system that is accessed by a user system, such as in a point-to-point communications system. The techniques described may be implemented by a local proxy server, such as a home network device, such as item <b>113</b> described with respect to <figref idref="DRAWINGS">FIG. 1</figref>, or a protocol server module, such as item <b>213</b> in <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0153" num="0152">Furthermore, although the characteristics and features of the various components shown by <figref idref="DRAWINGS">FIGS. 1</figref>, <b>2</b>, <b>3</b>, <b>4</b>, <b>5</b>, <b>7</b>, <b>9</b>, and <b>11</b> may differ dramatically based on advancements in the state-of-the-art, the following describes at least one contemplated implementation for those components. A client device, such as client devices <b>112</b><i>a</i>, <b>112</b><i>b</i>, <b>112</b><i>c </i>and <b>112</b><i>e </i>of <figref idref="DRAWINGS">FIGS. 1 and 11</figref>, client device <b>310</b> of <figref idref="DRAWINGS">FIG. 3</figref>, client device <b>410</b> of <figref idref="DRAWINGS">FIG. 4</figref>, or client device <b>912</b> of <figref idref="DRAWINGS">FIG. 9</figref>, typically includes a general purpose computer that has an internal or an external storage for storing data and programs such as an operating system (OS) (e.g., DOS (&#x201c;Disk Operating System&#x201d;), Windows&#xae;, Windows&#xae; 95, Windows&#xae; 98, Windows&#xae; 2000, Windows&#xae; NT, Windows&#xae; Millennium Edition, Windows&#xae; XP, OS/2, and Linux) and one or more application programs. Examples of application programs include authoring applications (e.g., word processing, database programs, spreadsheet programs, presentation programs, and graphics programs) capable of generating documents or other electronic content; client applications (e.g., AOL client, CompuServe client, AIM client, AOL TV client, and an ISP capable of communicating with other computer users, accessing various computer resources, and viewing, creating, or otherwise manipulating electronic content); and browser applications (e.g., Netscape's Navigator and Microsoft's Internet Explorer) capable of rendering standard Internet content.</p>
+<p id="p-0154" num="0153">The general-purpose computer also includes a central processing unit (&#x201c;CPU&#x201d;) for executing instructions in response to commands from a client controller. In one implementation, the client controller may include one or more of the application programs installed on the internal or external storage of the general-purpose computer. In another implementation, the client controller may include application programs externally stored in and executed by one or more device(s) external to the general-purpose computer.</p>
+<p id="p-0155" num="0154">The general-purpose computer may include a communications device for sending and receiving data. One example of the communications device is a modem. Other examples include a transceiver, a set-top box, a communications card, a satellite dish, an antenna, or another network adapter capable of transmitting and receiving data over the communications link through a wired or wireless data pathway.</p>
+<p id="p-0156" num="0155">The general-purpose computer also may include a television (&#x201c;TV&#x201d;) tuner for receiving TV programming in the form of broadcast, satellite, and/or cable TV signals. As a result, the client device can selectively and/or simultaneously display network content received by communications device and TV programming content received by the TV tuner.</p>
+<p id="p-0157" num="0156">The general-purpose computer may include an input/output interface that enables a wired or wireless connection to various peripheral devices. Examples of peripheral devices include, but are not limited to, a mouse, a mobile phone, a personal digital assistant (PDA), a keyboard, a display monitor with or without a touch screen input, and/or a TV remote control for receiving information from and rendering information to subscribers. Other examples may include voice recognition and synthesis devices.</p>
+<p id="p-0158" num="0157">Devices such as a mobile telephone, a PDA, and a TV remote control may be peripheral with respect to the general-purpose computer. In some implementations, such devices may themselves include the functionality of the general-purpose computer and operate as the client device. For example, the mobile phone or the PDA may include computing and networking capabilities, and may function as a client device by accessing a network and communicating with a host system. Furthermore, the client system may include one, some or all of the components and devices described above.</p>
+<p id="p-0159" num="0158">The network described, such as network <b>130</b> of <figref idref="DRAWINGS">FIGS. 1 and 11</figref>, network <b>230</b> of <figref idref="DRAWINGS">FIG. 2</figref>, and network <b>936</b> of <figref idref="DRAWINGS">FIG. 9</figref> also may be referred to as a delivery network.</p>
+<p id="p-0160" num="0159">The techniques and concepts have described inserting control information into a communications request, such as in step <b>468</b><i>p </i>in <figref idref="DRAWINGS">FIG. 4</figref>, step <b>764</b> in <figref idref="DRAWINGS">FIG. 7</figref>, step <b>885</b> in <figref idref="DRAWINGS">FIG. 8</figref>, and step <b>1045</b> in <figref idref="DRAWINGS">FIG. 10</figref>. Inserting control information includes appending or otherwise adding control information to the communications request. The techniques and concepts may also be applied to other techniques, such as transmitting control information with the communication request. For example, control information may be transmitted with the communication request by sending a communication that may be associated with the communication request.</p>
+<p id="p-0161" num="0160">The features are not limited to computer device contexts. The identification of the particular device or identity in communications from a system and tailoring system-provided information or features to the particular device or identity is equally advantageous to other contexts, such as to tailor TV programs provided over a cable or satellite provider or to restrict telephone access (e.g., to restrict access to a particular area code, such as 900, or regions, such as international or long distance calls). Furthermore, the techniques and concepts described also are applicable to communications internal to the home network.</p>
+<p id="p-0162" num="0161">The parental control information has been illustrated using a set of parental control levels. The benefits of the techniques described are not limited to a system that use parental control levels and are equally applicable to a system that uses other parental control information, such as a binary parental control process in which parental controls are either applied or not applied to a particular device or identity.</p>
+<p id="p-0163" num="0162">The techniques and concepts have been described using parental control information. These techniques are equally applicable to other types of access controls.</p>
+<p id="p-0164" num="0163">Implementations may include a method or process, an apparatus or system, or computer software on a computer medium. It will be understood that various modifications may be made within the following claims. For example, advantageous results still could be achieved if steps of the disclosed techniques were performed in a different order and/or if components in the disclosed systems were combined in a different manner and/or replaced or supplemented by other components.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A method for using parental controls, the method comprising:
+<claim-text>storing parental control information on a user device;</claim-text>
+<claim-text>receiving a request from the user device to access a destination over a communications network;</claim-text>
+<claim-text>using the parental control information stored on the user device to determine whether to grant the request from the user device;</claim-text>
+<claim-text>allowing the user device access to the destination when the parental control information indicates that the request should be allowed;</claim-text>
+<claim-text>denying the user device access to the destination when the parental control information indicates that the request should be denied;</claim-text>
+<claim-text>storing on a remote device information that is related to the parental control information stored on the user device;</claim-text>
+<claim-text>using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device; and</claim-text>
+<claim-text>if the parental control information stored on the user device has been altered without authorization of the master account holder for the user device:
+<claim-text>replacing the altered version of the parental control information stored on the user device with an unaltered version of the parental control information, and</claim-text>
+</claim-text>
+<claim-text>sending a message to the master account holder for the user device, the message indicating that the parental controls stored on the user device have been altered without authorization of the master account holder for the user device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the information stored on the remote device includes a checksum of a version of the parental control information stored on the user device and using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device includes verifying the parental control information stored on the user device using the checksum stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the information stored on the remote device includes a copy of a version of the parental control information stored on the user device and using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device includes verifying the parental control information stored on the user device using the copy of the parental control information stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The method as in <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein:
+<claim-text>the parental control information stored on the user device includes a checksum computed from the version of the parental control information stored on the user device for the parental controls, and</claim-text>
+<claim-text>using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device includes comparing the checksum stored on the remote device with the checksum stored on the user device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The method as in <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device includes comparing the copy of the parental control information stored on the remote device with the parental control information stored on the user device.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the information stored on the remote device includes a checksum and a copy of the parental control information stored on the user device and using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device includes verifying the parental control information stored on the user device using the checksum or the copy of the parental control information stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization comprises doing so periodically.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization comprises doing so based on an occurrence of an event.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the parental control information includes parental control information that is based on age-appropriateness of a content.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the parental control information is indicative of an identity that is signed into the user device.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the communications network includes the Internet.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The method as in <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the destination includes a web site.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. A system for using parental controls, comprising:
+<claim-text>at least one processor;</claim-text>
+<claim-text>a computer-readable storage medium storing a computer program comprising:
+<claim-text>a user device storing code segment that causes the processor to store parental control information on a user device;</claim-text>
+<claim-text>a receiving code segment that causes the processor to receive a request from the user device to access a destination over a communications network;</claim-text>
+<claim-text>a using code segment that causes the processor to use the parental control information stored on the user device to determine whether to grant the request from the user device;</claim-text>
+<claim-text>an access code segment that causes the processor to allow the user device access to the destination when the parental control information indicates that the request should be denied;</claim-text>
+<claim-text>a remote device storing code segment that causes the processor to store on a remote device information that is related to the parental control information stored on the user device; and</claim-text>
+<claim-text>a verifying code segment that causes the processor to use the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device;</claim-text>
+<claim-text>a replacing code segment that causes the processor to replace the altered version of the parental control information stored on the user device with an unaltered version of the parental control information when the parental control information stored on the user device has been altered without authorization of the master account holder for the user device, and</claim-text>
+</claim-text>
+<claim-text>a notification code segment that causes the processor to send a message to the master account holder for the user device when the parental control information stored on the user device has been altered without authorization, the message indicating that the parental controls stored on the user device have been altered without authorization of the master account holder for the user device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the information stored on the remote device includes a checksum of a version of the parental control information stored on the user device and the verifying code segment causes the computer to verify the parental control information stored on the user device using the checksum on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the information stored on the remote device includes a copy of a version of the parental control information stored on the user device and the verifying code segment causes the computer to verify the parental control information stored on the user device using the copy of the parental control information stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The system of <claim-ref idref="CLM-00015">claim 15</claim-ref> wherein:
+<claim-text>the parental control information stored on the user device includes a checksum computed from the version of the parental control information stored on the user device for the parental controls, and</claim-text>
+<claim-text>the verifying code segment causes the computer to compare the checksum stored on the remote device with the checksum stored on the user device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The system of <claim-ref idref="CLM-00015">claim 15</claim-ref> wherein the verifying code segment causes the computer to compare the copy of the parental control information stored on the remote device with the parental control information stored on the user device.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the information stored on the remote device includes a checksum and a copy of the parental control information stored on the user device and the verifying code segment causes the computer to verify the parental control information stored on the user device using the checksum or the copy of the parental control information stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device comprises doing so periodically.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device comprises doing so based on an occurrence of an event.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the parental control information includes parental control information that is based on age-appropriateness of a content.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the parental control information is indicative of an identity that is signed into the user device.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the communications network includes the Internet.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. The system of <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the destination includes a web site.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text>25. A computer-readable storage medium storing a computer program, the computer program comprising:
+<claim-text>a user device storing code segment that causes a computer to store parental control information on a user device;</claim-text>
+<claim-text>a receiving code segment that causes the computer to receive a request from the user device to access a destination over a communications network;</claim-text>
+<claim-text>a using code segment that causes the computer to use the parental control information stored on the user device to determine whether to grant the request from the user device;</claim-text>
+<claim-text>an access code segment that causes the computer to allow the user device access to the destination when the parental control information indicates that the request should be allowed;</claim-text>
+<claim-text>a denial code segment that causes the computer to deny the user device access to the destination when the parental control information indicates that the request should be denied;</claim-text>
+<claim-text>a remote device storing code segment that causes the computer to store on a remote device information that is related to the parental control information stored on the user device; and</claim-text>
+<claim-text>a verifying code segment that causes the computer to use the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device;</claim-text>
+<claim-text>a replacing code segment that causes the computer to replace the altered version of the parental control information stored on the user device with an unaltered version of the parental control information when the parental control information stored on the user device has been altered without authorization of the master account holder for the user device, and</claim-text>
+<claim-text>a notification code segment that causes the computer to send a message to the master account holder for the user device when the parental control information stored on the user device has been altered without authorization, the message indicating that the parental controls stored on the user device have been altered without authorization of the master account holder for the user device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text>26. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the information stored on the remote device includes a checksum of a version of the parental control information stored on the user device and the verifying code segment causes the computer to verify the parental control information stored on the user device using the checksum stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text>27. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the information stored on the remote device includes a copy of a version of the parental control information stored on the user device and the verifying code segment causes the computer to verify the parental control information stored on the user device using the copy of the parental control information stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text>28. The computer-readable storage medium of <claim-ref idref="CLM-00027">claim 27</claim-ref> wherein:
+<claim-text>the parental control information stored on the user device includes a checksum computed from the version of the parental control information stored on the user device for the parental controls, and</claim-text>
+<claim-text>the verifying code segment causes the computer to compare the checksum stored on the remote device with the checksum stored on the user device.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text>29. The computer-readable storage medium of <claim-ref idref="CLM-00027">claim 27</claim-ref> wherein the verifying code segment causes the computer to compare the copy of the parental control information stored on the remote device with the parental control information stored on the user device.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text>30. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the information stored on the remote device includes a checksum and a copy of the parental control information stored on the user device and the verifying code segment causes the computer to verify the parental control information stored on the user device using the checksum or the copy of the parental control information stored on the remote device.</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text>31. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device comprises doing so periodically.</claim-text>
+</claim>
+<claim id="CLM-00032" num="00032">
+<claim-text>32. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein using the information stored on the remote device to determine whether the parental control information stored on the user device has been altered without authorization of a master account holder for the user device comprises doing so based on an occurrence of an event.</claim-text>
+</claim>
+<claim id="CLM-00033" num="00033">
+<claim-text>33. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the parental control information includes parental control information that is based on age-appropriateness of a content.</claim-text>
+</claim>
+<claim id="CLM-00034" num="00034">
+<claim-text>34. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the parental control information is indicative of an identity that is signed into the user device.</claim-text>
+</claim>
+<claim id="CLM-00035" num="00035">
+<claim-text>35. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the communications network includes the Internet.</claim-text>
+</claim>
+<claim id="CLM-00036" num="00036">
+<claim-text>36. The computer-readable storage medium of <claim-ref idref="CLM-00025">claim 25</claim-ref> wherein the destination includes a web site.</claim-text>
+</claim>
+<claim id="CLM-00037" num="00037">
+<claim-text>37. A method for using parental controls, the method comprising:
+<claim-text>storing first parental control information on a first user device;</claim-text>
+<claim-text>storing second parental control information on a second user device;</claim-text>
+<claim-text>storing on a remote device information that is related to the first parental control information stored on the first user device;</claim-text>
+<claim-text>storing on the remote device information that is related to the second parental control information stored on the second user device;</claim-text>
+<claim-text>using the information stored on the remote device to determine whether the first parental control information stored on the first user device has been altered without authorization of a first master account holder for the first user device;</claim-text>
+<claim-text>if the parental control information stored on the first user device has been altered without authorization of the first master account holder for the first user device:
+<claim-text>replacing the altered version of the first parental control information stored on the first user device with an unaltered version of the first parental control information, and</claim-text>
+</claim-text>
+<claim-text>sending a first message to the first master account holder for the first user device, the first message indicating that the first parental controls stored on the first user device have been altered without authorization of the first master account holder for the first user device; using the information stored on the remote device to determine whether the second parental control information stored on the second user device has been altered without authorization of a second master account holder for the second user device; and</claim-text>
+<claim-text>if the parental control information stored on the second user device has been altered without authorization of the second master account holder for the second user device:
+<claim-text>replacing the altered version of the second parental control information stored on the second user device with an unaltered version of the second parental control information, and</claim-text>
+<claim-text>sending a second message to the second master account holder for the second user device, the second message indicating that the second parental controls stored on the second user device have been altered without authorization of the second master account holder for the second user device. </claim-text>
+</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

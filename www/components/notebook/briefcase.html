@@ -1,0 +1,34 @@
+<ion-view view-title="Notebook List">
+
+    <ion-nav-buttons side="left">
+        <button class="button button-icon icon ion-navicon" menu-toggle="left"></button>
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+        <button class="button button-icon search-btn" menu-toggle="right"></button>
+    </ion-nav-buttons>
+
+    <ion-content class="content has-header nbklist-bg max-width-center" has-bouncing="false">
+
+        <div class="card nbklist-card" ng-repeat="notebook in briefcase | orderObjectBy:'modified':true">
+
+                <a class="item" ui-sref="notebook.id({ 'id': notebook.id })" ng-click="currentNotebook=notebookId">
+                    <div class="nbk-title" >{{::notebook.name}}</div>
+
+                    <ul ng-if="notebook.note" class="nbklist-note">
+                        <li class="text-ellipsis">{{::notebook.note}}</li>
+                    </ul>
+
+                     <ul  class="nbklist-bk">
+                        <li class="text-ellipsis" ng-repeat="bookmark in notebook.bookmarks | limitTo: 3">{{::bookmark.name}}</li>
+                    </ul>
+                </a>
+        </div>
+
+        <div class="max-width-center" ng-show="notebookCount === 0">
+            No notebooks available. Please create a notebook.
+        </div>
+
+      </ion-content>
+
+</ion-view>

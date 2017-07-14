@@ -1,0 +1,1080 @@
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-user-select: text !important;
+}
+
+body, div, .item, .input-label, input[type=text], button {
+    font-family: Roboto, Helvetica, Helvetica, Arial, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [ng-cloak], .ng-cloak, .ng-hide {
+    display: none !important;
+}
+
+.item-select select  {
+    font-size: 1em;
+    line-height: 2;
+}
+
+@media only screen and (min-width:768px){
+    /* Larger Screens.
+    ipad 3 portrait / landscape
+	ipad 2 portrait / landscape
+	ipad 1 portrait / landscape
+	Amazon kindle fire hd portrait
+	Nexus 7 landscape
+	Samsung Galaxy Note 10.1 landscape
+	Samsung Galaxy Tab 2 10.1 landscape
+	LG Nexus 4 portrait
+	Samsung Galaxy Note portrait	 
+	Desktop: Chrome and Safari - BELOW 1600 x 1024 
+	*/
+    body, div, .item, .input-label, input[type=text], .bar .title {
+        font-size: 18px;
+    }
+
+    .bar .title {
+        padding-top: 0.3em;
+    }
+
+    .buttons-right {
+        padding-top: 0.3em;
+    }
+    
+    .buttons-right .button-icon i {
+        padding: 0 0.40em;
+    }
+
+    .bar .button {
+        padding: 0 1em;
+    }
+
+    body, div, .item, .input-label, input[type=text] {
+        line-height: 1.4;
+    }
+}
+
+/* start. Override Ionic css */
+.buttons-left  .button-icon i{
+    color: #fff;
+    font-size: 1.35em;
+    padding:0 0.125em;
+}
+
+.buttons-right {
+    white-space: nowrap;
+}
+
+.buttons-right  .button-icon i {
+    color: #fff;
+    font-size: 1.4em;
+    padding:0 0.19em;
+}
+
+.buttons.ng-enter{
+    display:none;
+}
+
+.button.ng-enter{
+    display:none;
+}
+
+.button.ion-android-done.ng-leave {
+    display:none;
+}
+
+.bar.ng-enter {
+    -webkit-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+
+.buttons.ng-leave{
+    /* display:none; */  /* disable animation when switching buttons. */
+    -webkit-transition: background 0.05s  ease-in-out;
+    transition: background 0.05s  ease-in-out;
+}
+
+.has-header {
+    top: 2.9em;
+}
+
+.bar.bar-dark {
+    border-color: #111;
+    background-color: #333;
+    background-image: linear-gradient(0deg, #111, #111 50%, transparent 50%);
+    color:#fff;
+}
+
+.bar-header {
+    height: 2.9em;
+}
+
+.icon {
+    color: #aaa;
+    font-size: 1.25em !important;
+}
+
+.icon .icon-badge {
+    position: absolute;
+    top: 0.1875;
+    right: 0;
+    font-size: 0.5em;
+}
+
+textarea {
+    resize: none;
+}
+
+input.ng-invalid.ng-dirty {
+    background-color:#FEBCBF;
+}
+
+/* done. Override Ionic css */
+
+/* Application Button Icons */
+.backButton:before {
+    font-family: "Ionicons";
+    content: "\f2ca";
+    color:#fff;
+    font-size: 1.30em !important;
+}
+
+.backButton {
+    padding-left: 0.5em !important;
+    padding-right: 1.2em !important;
+}
+
+.search-btn:before {
+    font-family: "Ionicons";
+    content: "\f21f";
+    color:#fff;
+    font-size: 1.45em !important;
+    padding-right: 0.2em !important;
+}
+
+.select-close:before {
+    font-family: "Ionicons";
+    content: "\f129";
+    color:#fff;
+    font-size: 1.1em !important;
+}
+
+.select-close {
+    padding-right: 1.4em !important;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.max-width-center {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-default {
+	color: #444;
+	background-color: #f9f9f9;
+	border-color: #ccc;
+}
+
+.btn-primary, .btn-primary:hover {
+    color: #fff;
+    background-color: #058ec1;
+    border-color: #047cb0;
+}
+
+.about-body {
+	background: #fff url('../img/back-sketch.png') no-repeat left top;
+    background-size: cover;
+}
+
+.logo-watermark {
+	background: #333 url('../img/logo-watermark.png') no-repeat right bottom;
+    background-color: rgba(0,0,0,0.8);
+	background-size: contain;
+	color: #fff;
+	line-height: 1.5;
+	margin-left: 0;
+	font-size: 1.15em;
+	border: 0;
+	padding: 2.5em;
+  	max-width: 500px;
+}
+
+.logo {
+	background:transparent url('../img/logo.png') no-repeat left;
+	margin: 5% 5% 5% 14%;
+	min-height: 150px;
+	display: block;
+	background-size: 90%;
+	max-width: 650px;
+}
+
+.text-ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.nav-headbar {
+    background-color: #0099CC;
+	border: 0;
+}
+
+.nav-headbar .title {
+    color: #fff;
+}
+
+.nav-item {
+    line-height: 1.75em;
+}
+
+.nav-item:after {
+
+}
+
+.nav-more-item {
+    padding-left: 2.2em;
+}
+
+.nav-active {
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-active i.ion-chevron-right {
+    color: #8FDBFF !important;
+}
+
+.nav-icon.ion-briefcase {
+    font-size: 1.85em !important;
+    color: #00B67C;
+}
+
+.nav-icon.ion-folder {
+    font-size: 1.85em !important;
+    color: #1596D1;
+}
+
+.nav-icon.ion-search {
+    font-size: 1.85em !important;
+    color: #F5A540;
+}
+
+.nav-icon.ion-information-circled{
+    font-size:1.85em !important;
+    color:#444;
+}
+
+.nav-icon.ion-document-text {
+    font-size: 1.85em !important;
+    color: #5F75E4;
+}
+
+.nav-icon.ion-clock {
+    font-size: 1.85em !important;
+    color: #444;
+}
+
+.nav-icon.ion-gear-b{
+    font-size: 1.85em !important;
+    color: #444;
+}
+
+.result {
+	padding: 0.3125em;
+}
+
+.result-title {
+    font-family: "Roboto Bold";
+    font-size: 1.20em;
+	white-space: pre-wrap;
+    overflow: hidden;
+    color: #058ec1;
+    max-width: 500px;
+}
+
+a.item:visited, a.item-content:visited .result-title{
+    color: #000;
+}
+
+.result-headcnt {
+    margin-left:0.4em;
+    position:fixed;
+    top:0.82em;
+}
+
+.result-snipplet {
+	padding-top:0.26em;
+	line-height: 1.4;
+}
+
+.result-snipplet-row1 {
+	color: #333;
+	font-size:0.95em;
+}
+
+.result-snipplet-row2 {
+    font-family: 'Roboto Condensed';
+	color: #666;
+    font-size: 0.87em;
+    padding-left: 0.0627em;
+}
+
+.result-snipplet-row1 span, .result-snipplet-row2 span {
+	margin-right: 1em;
+}
+
+.result-footer {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    display: table;
+}
+
+.result-footer .button {
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+}
+
+.result-footer .button.ng-hide {
+    display: inline !important;
+    visibility: hidden;
+}
+
+.result-page-cnt {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.result-page-cnt  .button {
+    font-size: 1em !important;
+    padding: 0.16em 1.2em;
+    margin-top: -0.05em;
+}
+
+.doc-meta {
+    padding-bottom: 1em;
+}
+
+.doc-meta:active > div {
+    background-color: #ddd;
+}
+
+.doc-title {
+	font-size: 1.05em;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 100%;
+    color: #058ec1;
+    padding-left: 0.9em;
+    text-indent: -0.9em;
+    line-height: 1.6;
+}
+
+.doc-field {
+	padding-left: 0.75em;
+	border-top: none;
+	line-height: 1.5;
+    border: 0;
+}
+
+.doc-field .field-title {
+	font-size: 0.95em;
+	font-weight: bold;
+    max-width: 160px;
+}
+
+.doc-field .field-value {
+	font-size: 0.95em;
+}
+
+.doc-entity {
+    text-align:left;
+    line-height: 1.8;
+}
+
+.doc-entity:active {
+    background-color: #ddd;
+}
+
+.doc-footer {
+    padding:0;
+}
+
+.button-bar .doc-btn {
+  padding: 0.3em;
+  font-size: 1.05em;
+}
+
+.button-bar .doc-btn  i.ion-document-text {
+    padding-right: 2px;
+}
+
+.button-bar .doc-btn  i.ion-image {
+    padding-right: 2px;
+}
+
+.search-header {
+    background-color: #E66464;
+}
+
+.search-header .title {
+    color: #fff;
+}
+
+.search-sort {
+    border-top:0;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.search-card {
+    padding-bottom:8px;
+}
+
+.search-term {
+    line-height: 2.5;
+    padding: 5% 4%;
+    display: inline;
+    border: 0;
+}
+
+.search-term i.ion-close {
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.65em;
+}
+
+.search-term .search-term-btn {
+    font-family: 'Roboto Condensed-Regular';
+    padding: 0 4% 0 0;
+    border: 1px solid #eee;
+    margin-right: 5%;
+    background-color: #0099CC;
+    font-size:1em;
+    line-height:2.5;
+    min-height:2.6em;
+}
+
+.search-term .search-term-btn .search-term-name {
+    display: inline-block;
+    background-color: #33B5E5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.869em;
+    padding: 5px 4px 2px 4px;
+    border: 0;
+    letter-spacing: .2em;
+    font-size: 0.75em;
+}
+
+.search-term .search-term-btn .search-term-value {
+    font-size: 0.90em;
+    padding: 3px;
+    color: #fff;
+}
+
+.search-field {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.search-menu-pane, .search-field-pane, .nav-menu-pane {
+	background-color: #e5e5e5;
+}
+
+.search-field-header {
+    font-size: 1.2em;
+    padding-left: 0.2em;
+    color: #777;
+}
+
+.search-scanbtn:before {
+    font-family: "Ionicons";
+    content: "\f3db";
+    padding-left: 0.4em;
+    padding-right: 0.1em;
+    font-size: 2.3em !important;
+    color: #FF851B;
+}
+
+.search-menu-item, .search-menu-item:visited {
+	color: #555;
+	text-align: left;
+    text-transform: capitalize;
+}
+
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before {
+    background: #058ec1;
+    border-color: #058ec1;
+}
+
+.bk-header {
+    border-bottom: 2px solid #058ec1;
+    height: 55px;
+}
+
+.bk-content {
+    margin-top: 10px;
+}
+
+.bk-header .title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #058ec1;
+    text-align: left;
+    font-size: 1.05em;
+}
+
+.bk-fields .item {
+	border-bottom: 0;
+	border-top: #eee 1px solid;
+	padding: 1.25em 1em 1.25em 1em;
+    font-weight: bold;
+}
+
+.bk-fields .item  input[type=text]{
+	padding-left: 12px;
+}
+
+.bk-status {
+    line-height: 1.8;
+}
+
+.bk-notebook {
+    padding: 0.4em 0 0.4em 1em;
+    font-weight: normal;
+}
+
+.bk-selectTitle {
+    border-top: 0;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5em;
+}
+
+.bk-footer {
+    padding: 0;
+}
+
+.bk-title {
+    font-size: 1.3em !important;
+    font-family: 'Roboto Regular';
+}
+
+.bk-close, .bk-back {
+    padding: 0.3em 1.3em 1em 0.5em !important;
+}
+
+.bk-close i {
+  	font-size: 1.2em;
+    color: #058ec1;
+}
+
+.bk-back i {
+  	font-size: 1.6em;
+    color: #058ec1;
+}
+
+.bk-save {
+    min-width: 75px !important;
+    font-family: 'Roboto Condensed';
+  	font-size: 1em !important;
+    color: #fff;
+    background-color: #058ec1;
+    border-color: #047cb0;
+}
+
+.button-bar .bk-btn {
+    font-weight: bold;
+    padding: 0.3em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-radius: 0;
+	margin: 0;
+}
+
+.nbklist-bg {
+    background-color: #eee;
+}
+
+.nbklist-note {
+    margin-left: 0.3em;
+    line-height: 1.8;
+    list-style-type: square !important;
+    list-style-position: inside;
+}
+
+.nbklist-bk {
+    margin-left: 0.3em;
+    line-height: 1.8;
+    list-style-type: disc !important;
+    list-style-position: inside;
+}
+
+.nbklist-card {
+    margin: 10px;
+}
+
+.nbk-title {
+	font-size: 1.15em;
+    font-weight: bold;
+    color: #1596D1;
+    padding: 3px 0 3px 0;
+}
+
+.nbk-title-form {
+	margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.nbk-title-form input[type=text]{
+	background-color: #fff;
+	width: 295px;
+	border: solid 1px #b2b2b2;
+	padding: 5px;
+}
+
+.nbk-desc {
+    font-family: 'Roboto Condensed';
+    line-height: 1.35 !important;
+	font-size: 1em;
+	padding: 7px 7px 7px 15px;
+    max-width: 660px;
+}
+
+.nbk-desc-form {
+	padding-bottom: 10px;
+}
+
+.nbk-desc-form textarea {
+	width: 295px;
+	border: solid 1px #b2b2b2;
+	padding: 5px;
+}
+
+.nbk-bookmark-list {
+    padding:2px !important;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.nbk-bookmark > .item-content {
+    padding:2px 3.125em 1px 1em;
+    border-bottom: 1px solid #eee;
+}
+
+.nbk-bookmark {
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+.nbk-bookmark-icon {
+    font-size: 2.2em;
+    color: #1596D1;
+    margin-right:0.1em;
+    width: 1.0em;
+}
+
+.nbk-bookmark-icon:active {
+    color:#999;
+}
+
+.nbk-bookmark-text {
+   width: 98%;
+   line-height: 1.8;
+   padding: 0.625em;
+   font-size: 1em;
+   text-align: left;
+   border:0;
+   background-color: #fff;
+   border-radius: 0.312em;
+}
+
+.nbk-bookmark-text.button.disabled, .nbk-bookmark-text.button[disabled] {
+   opacity: .80;
+}
+
+.nbk-bookmark-text.button:active{
+    background-color:#ddd;
+}
+
+.lib-bk-text.button:active{
+    background-color:#ddd;
+}
+
+.nbk-bookmark-name {
+    font-size: 1em;
+	max-width: 555px;
+    width: 100%;
+}
+
+.nbk-button-bar {
+	border-color: #1596D1 !important;
+}
+
+.nbk-button-bar .button {
+    font-family: 'Roboto Condensed-Regular';
+  	font-size: 1em;
+}
+
+.nbk-button-bar  i {
+	font-size: 1.4em;
+	padding: 0.2em;
+	color: #1596D1;
+}
+
+.more-menu {
+    width: 12.6em;
+    height: 18.125em;
+}
+
+.more-title {
+    font-size: 1.20em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 0.6;
+}
+
+.more-item {
+    line-height: 1.5;
+    font-size: 1.10em;
+    border-color: #eee;
+}
+
+.more-item.active {
+    background-color: #eee !important;
+    font-weight: bold;
+}
+
+.more-icon.ion-edit {
+    font-size: 1.4em !important;
+    color: #5F75E4;
+}
+
+.more-icon.ion-merge {
+    font-size: 1.4em !important;
+    color: #F5A540;
+}
+
+.more-icon.ion-trash-b{
+    font-size: 1.4em !important;
+    color: #E66464;
+}
+
+.tag {
+    text-align: center;
+    width: 100px;
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 4px;
+    font-size: 0.869em;
+    border-radius: 4px;
+}
+
+.tag-entity {
+    color: #444;
+    background-color: #f1f1f1;
+    border: 1px solid #bebebe;
+}
+
+.tag-unread {
+    color: #1596d1;
+    background-color: #eef8fc;
+    border: 1px solid #8acbe8;
+}
+
+.tag-read {
+    color: #444;
+    background-color: #f1f1f1;
+    border: 1px solid #bebebe;
+}
+
+.tag-done {
+    color: #444;
+    background-color: #f1f1f1;
+    border: 1px solid #bebebe;
+}
+
+.tag-follow-up {
+    color:#994929;
+    background-color:#FFEFCF;
+    border: 1px solid #F4BB5F;
+}
+
+.tag-similar {
+    color: #ac2b37;
+    background-color: #faf0f1;
+    border: 1px solid #deaaaf;
+}
+
+.tag-different {
+    color: #c88242;
+    background-color: #fcf6f1;
+    border: 1px solid #e1ba97;
+}
+
+.tag-like {
+    color: #008139;
+    background-color: #ecf7f1;
+    border: 1px solid #99cdb0;
+}
+
+.tag-dislike {
+    color: #ac2b37;
+    background-color: #faf0f1;
+    border: 1px solid #deaaaf;
+}
+
+.tag-informative {
+    color: #004c97;
+    background-color: #ecf2f7;
+    border: 1px solid #a6c0db;
+}
+
+.animate-btn {
+	-webkit-transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), -webkit-transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.animate-dropdown {
+    -webkit-transition: -webkit-transform 0.13s linear;
+    transition: transform 0.12s linear;
+    border-bottom: 0;
+    box-shadow: 1px 1px 1.5px rgba(0,0,0,.1);
+}
+
+.animate-dropdown *> .item-content, .animate-dropdown > .item {
+    background-color: #fbfbfb;
+}
+
+.animate-dropdown.ng-hide {
+    -webkit-transform: translate3d(0, -131px, 0);
+    transform: translate3d(0, -131px, 0);
+}
+
+.animate-grow {
+    -webkit-transition: 0.10s ease-in-out;
+    transition: 0.10s ease-in-out;
+    opacity: 10;
+    line-height: 2;
+}
+
+.animate-grow.ng-hide {
+    line-height: 0;
+    opacity: 0;
+    padding: 0 10px;
+}
+
+.lib-bookmark-icon {
+    font-size: 2.5em;
+    color: #1596D1;
+    margin-left: 0.15em;
+    margin-right: 0.1em;
+    padding-top: 0.2em;
+}
+
+.lib-bookmark {
+    padding: 0.22em;
+    border: 0;
+}
+
+.lib-bk-text {
+   width: 98%;
+   line-height: 1.8;
+   padding: 0.625em 0.3125em;
+   margin: 0;
+   font-size: 1em;
+   text-align: left;
+   border: 0;
+   background-color: #fff;
+   border-radius: 0.3125em;
+}
+
+.lib-bk-id {
+    font-size: 1.05em;
+}
+
+.lib-bk-name {
+    overflow-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    padding-right: 1.75em;
+    width: 89%;
+    padding-top: 0.25em;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.lib-bookmark-selected {
+    color: #555;
+}
+
+.lib-filter-menu {
+    width: 11em;
+    height: 14.7em;
+}
+
+.lib-button-bar {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lib-button-bar  i {
+	font-size: 1.4em;
+	padding: 0.3125em;
+	color: #1596D1;
+}
+
+.more-icon.ion-android-cloud-outline {
+    font-size: 1.4em !important;
+    color: #F5A540;
+}
+
+.more-icon.ion-android-cloud {
+    font-size: 1.4em !important;
+    color: #00B67C;
+}
+
+.more-icon.ion-android-download {
+    font-size: 1.4em !important;
+    color: #E66464;
+}
+
+.pviewer-more-menu {
+    width: 11em;
+    height: 15.5em;
+}
+
+#patent-doc {
+    -webkit-user-select: text !important;
+    user-select: text !important;
+    -ms-user-select: text !important;
+}
+
+#patentTop {
+    padding: 1.6em 1.6em 0.9em 1.6em;
+    border-bottom: 1px solid #555;
+}
+
+#patentTitle {
+    padding: 0 1.6em 1.6em 1.6em;
+    border: 0;
+    line-height: 1.6;
+    font-size: 1.05em;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.section-title {
+    margin-top: 1em;
+    line-height: 1.4;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.section-title + .item {
+    border-bottom: 0;
+}
+
+.section-content, .section-content .col {
+    font-size: 1.05em;
+    line-height: 1.6;
+}
+
+.section-field {
+    font-weight: bold;
+}
+
+.section-paragraph {
+    font-size: 1.05em;
+    line-height: 1.6;
+    text-indent: 1.5em;
+    padding-bottom: 1em
+}
+
+.ref-cite {
+    padding: 0.75em 0;
+}
+
+.progress-title {
+    width: 180px;
+    font-size: 1.25em;
+    padding:0.6em;
+}
+
+.more-icon.ion-bookmark {
+    font-size: 1.4em !important;
+    color: #00B67C;
+}
+
+.more-icon.ion-android-share-alt {
+    font-size: 1.4em !important;
+    color: #F5A540;
+}
+
+.more-icon.ion-search {
+    font-size: 1.4em !important;
+    color: #E66464;
+}
+
+.error-msg {
+    border: 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #FF3333;
+    line-height: 1.8;
+    overflow-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+}
+
+.settings-header {
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.settings-submit-btn {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.scroll-to-top {
+    background: #363636;
+    background: rgba(100, 100, 100, 0.4);
+    color: #FFF;
+    bottom: 4%;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 15px;
+    z-index: 999;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2em;
+    width: 2em;
+    border-radius: 4px;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+

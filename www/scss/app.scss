@@ -1,0 +1,27 @@
+
+// The path for ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+// descriptive color variables:
+// darken($green, 2.5%)
+$green : #00B67C;
+$orange : #F5A540;
+$violet : #5F75E4;
+$tomato : #E66464;
+$blue : #1596D1;
+$blue2 : #0099CC;
+
+// functional color variables:
+// $link-color:
+// $border-color:
+// $icon-color:
+// $actionbar-icon-color:
+
+
+
+@import 'base';
+@import 'notebook';
+

@@ -1,0 +1,102 @@
+<ion-view view-title="Notebook">
+
+        <ion-nav-buttons side="left">
+                <button ng-show="readOnly" class="button button-icon icon ion-navicon" ng-click="toggleLeft()"></button>
+                <button ng-if="!readOnly" class="button button-icon select-close" ng-click="saveNotebook(notebookId, notebook);setReadonly(true);"></button>
+        </ion-nav-buttons>
+
+        <ion-nav-buttons side="right">
+        	<div class="buttons" ng-if="readOnly">
+	            <a class="button button-icon" ng-click="setReadonly(false)">
+	                <i class="ion-compose"></i>
+	            </a>
+	            <a class="button button-icon" ng-click="share()">
+                	<i class="ion-android-share-alt"></i>
+            	</a>
+	            <a class="button button-icon search-btn" ng-click="setReadonly(true);toggleRight();"></a>
+        	</div>
+
+        	<div class="buttons" ng-if="!readOnly">
+                <a class="button button-icon" ng-click="notebookMoreActions($event, notebookId)">
+                   <i class="ion-more"></i>
+                </a>
+            </div>
+        </ion-nav-buttons>
+
+
+        <ion-content class="content has-header max-width-center" has-bouncing="false" ng-cloak>
+
+			 <!-- Bookmark Title and Desc -->
+			 <div ng-show="readOnly || !editTitle" class="item item-divider item-text-wrap padding ng-cloak" ng-click="toggleDesc()">
+                <div class="nbk-title">
+                    {{notebook.name}}
+                    <i ng-show="notebook.note" class="ion-chevron-up pull-right ng-cloak" ng-class="{'ion-chevron-up': showDesc, 'ion-chevron-down': !showDesc, 'clear':notebook.note}" style="padding:7px;font-size:14px;color:#999;"></i>
+                </div>
+
+                <div ng-show="notebook.note && showDesc" class="nbk-desc animate-grow ng-cloak">{{notebook.note}}</div>
+		    </div>
+			<div id="title" ng-hide="readOnly || !editTitle" class="animate-show ng-cloak">
+				<div class="item item-input item-divider" style="border:0;margin:0;">
+                	<form class="nbk-title-form" ng-submit="saveNotebook(notebookId, notebook);toggleEditTitle();">
+						<label for="nbkname">Title</label>
+                		<input name="nbkname" id="nbkname" type="text" placeholder="notebook title&#8230;" ng-model="notebook.name" required></input>
+                        <input type="submit" ng-click="saveNotebook(notebookId, notebook);" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+					</form>
+				</div>
+				<div class="item item-input item-divider" style="border:0;margin:0;">
+					<form class="nbk-desc-form" ng-submit="saveNotebook(notebookId, notebook);toggleEditTitle();">
+						<label for="nbkdesc">Description</label>
+						<textarea name="nbkdesc" id="nbkdesc" type="text" rows="6" placeholder="notebook description&#8230;" ng-model="notebook.note"></textarea>
+                        <input type="submit" ng-click="saveNotebook(notebookId, notebook);" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+					</form>
+				</div>
+			</div>
+
+
+			<!-- Bookmark List --->
+            <ion-list class="item no-padding nbk-bookmark-list" style="border:0" class="" can-swipe="readOnly" show-reorder="showReorder">
+
+                <ion-item class="no-padding nbk-bookmark" ng-repeat="bookmark in notebook.bookmarks" item="bookmark">
+
+                    <button ng-if="readOnly" class="button button-icon nbk-bookmark-icon" ng-click="editBookmark(bookmark)">
+                        <i class="ion-{{::bookmark.type}}" ng-class="{true: 'ion-calculator'}[bookmark.type == 'org']"></i>
+                    </button>
+
+                    <button ng-if="!readOnly" class="button button-icon icon"
+                        ng-class="{true: 'ion-android-checkbox', false: 'ion-android-checkbox-outline-blank'}[ selectedBookmarks[bookmark.id] == true ]"
+                        ng-click="toggleSelectBookmark(bookmark.id)">
+                    </button>
+
+                     <button ng-click="openBookmark(bookmark)" class="button item-text-wrap nbk-bookmark-text" ng-disabled="!readOnly">
+                        <div class="nbk-bookmark-name">{{bookmark.name}}</div>
+                        <span class="tag tag-entity" ng-if="(bookmark.type == 'person' || bookmark.type == 'org')"> {{::bookmark.subtype}}</span>
+                        <span ng-show="bookmark.tag" class="tag tag-{{bookmark.tag}}">{{bookmark.tag}}</span>
+                    </button>
+
+                    <ion-option-button class="button-assertive" ng-click="editBookmark(bookmark)"> Edit </ion-option-button>
+                    <ion-option-button class="button-calm" ng-click="shareBookmark(this)"> Share </ion-option-button>
+
+                    <ion-reorder-button class="ion-navicon" on-reorder="moveBookmark(notebookId, bookmark, $fromIndex, $toIndex)"></ion-reorder-button>
+
+                </ion-item>
+            </ion-list>
+
+        </ion-content>
+
+        <!-- Notebook Toolbar -->
+        <ion-footer-bar class="bar-stable max-width-center nbk-button-bar animate-flip" ng-if="!readOnly">
+        	<div class="button-bar buttons">
+	            <!-- <a class="button button-icon button-clear" ng-click="toggleShowDelete()" ng-class="{'active': showDelete}"> -->
+                <a class="button button-icon button-clear" ng-click="deleteSelected(notebookId)" ng-class="{'active': showDelete}">
+	              <i class="ion-trash-b"></i> Delete
+	            </a>
+	            <a class="button button-icon button-clear" ng-click="toggleShowReorder()" ng-class="{'active': showReorder}">
+	              <i class="ion-arrow-move"></i> Reorder
+	            </a>
+                <a class="button button-icon button-clear" ng-click="">
+	              <i class="ion-reply"></i> Move
+	            </a>
+            </div>
+        </ion-footer-bar>
+
+</ion-view>
